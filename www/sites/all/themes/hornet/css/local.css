@@ -82,8 +82,8 @@ a.register-link:hover {
 /**
  * Footer
  **/
-.footer {
-  background: url("../images/footer.jpg") repeat-x scroll 0 0 transparent;
+.bottom {
+  background: url(../images/footer.jpg) repeat-x scroll 0 0 #366380;
   height: 350px;
 }
 .footer-message {
