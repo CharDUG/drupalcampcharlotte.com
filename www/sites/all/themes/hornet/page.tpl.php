@@ -74,8 +74,7 @@
       <div id="main-wrapper" class="main-wrapper full-width">
         <div id="main" class="main row <?php print $grid_width; ?>">
           <div id="main-inner" class="main-inner inner clearfix">
-            <?php print theme('grid_row', $sidebar_first, 'sidebar-first', 'nested', $sidebar_first_width); ?>
-
+            
             <!-- main group: width = grid_width - sidebar_first_width -->
             <div id="main-group" class="main-group row nested <?php print $main_group_width; ?>">
               <div id="main-group-inner" class="main-group-inner inner">
