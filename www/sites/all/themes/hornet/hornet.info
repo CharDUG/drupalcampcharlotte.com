@@ -7,6 +7,7 @@ screenshot = screenshot.png
 engine = phptemplate
 
 stylesheets[all][] = css/fusion-starter-style.css
+scripts[] = js/custom.js
 
 regions[sidebar_first] = sidebar first
 regions[sidebar_last] = sidebar last
@@ -38,7 +39,8 @@ settings[theme_grid] = grid16-960
 settings[theme_grid_options][] = grid16-960
 settings[theme_grid_options][] = grid16-fluid
 settings[fluid_grid_width] = fluid-100
-settings[theme_font_size] = font-size-12
+settings[theme_font] = font-family-myriad
+settings[theme_font_size] = font-size-14
 settings[sidebar_layout] = sidebars-split
 settings[sidebar_first_width] = 3
 settings[sidebar_last_width] = 3
