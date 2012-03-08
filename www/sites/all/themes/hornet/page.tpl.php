@@ -137,12 +137,11 @@
       <!-- postscript-bottom row: width = grid_width -->
       <?php print theme('grid_row', $postscript_bottom, 'postscript-bottom', 'full-width', $grid_width); ?>
 
-      <!-- footer row: width = grid_width -->
-      <?php print theme('grid_row', $footer, 'footer', 'full-width', $grid_width); ?>
+      
 
     </div><!-- /page-inner -->
   </div><!-- /page -->
- <div class="footer">
+ <div class="bottom">
   <div class="wrap">
   <!-- footer-message row: width = grid_width -->
       <div id="footer-message-wrapper" class="footer-message-wrapper full-width">
@@ -152,6 +151,8 @@
           </div><!-- /footer-message-inner -->
         </div><!-- /footer-message -->
       </div><!-- /footer-message-wrapper -->
+      <!-- footer row: width = grid_width -->
+      <?php print theme('grid_row', $footer, 'footer', 'full-width', $grid_width); ?>
     </div><!-- /.footer.wrap -->
   </div><!-- /.footer -->
   <?php print $closure; ?>
