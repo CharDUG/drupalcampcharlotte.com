@@ -1,0 +1,89 @@
+
+/****************************/
+/* LOCAL CSS                */
+/****************************/
+
+/* Put your custom CSS and CSS overrides in this file and  */
+/* rename it local.css.  By restricting your CSS changes   */
+/* to local.css, your changes will not be overwritten when */
+/* upgrading to a new version of this theme.  You can also */
+/* use a local-rtl.css file for the equivalent in RTL.     */
+
+/* Steps to activate local.css:                       */
+/* 1. Add your custom CSS to this file                */
+/* 2. Rename this file to local.css                   */
+/* 3. Clear cached data at admin/settings/performance */
+body {
+	background: url(../images/skyline.jpg) repeat-x #fff;
+}
+a {
+	color: #346480;
+}
+/**
+ * Header
+ */
+.header-group-wrapper {
+	background: url(../images/skyline.jpg) repeat-x #fff;
+  height: 450px;
+}
+.header-group-wrapper a {
+	color: #fff;
+}
+.user-login-link {
+  float: right;
+  text-transform: uppercase;
+}
+
+/* main-menu */
+.primary-menu.block .inner {
+ margin: 0;
+}
+.primary-menu-inner {
+	float: right;
+  margin-right: 0;
+}
+.primary-menu a {
+  font-family: 'Maiden Orange';
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.primary-menu .last a {
+	padding-right: 0;
+}
+
+
+a.register-link {
+  background: url(../images/gold-arrow.png) no-repeat scroll 0 0 transparent;
+  color: #C05818;
+  display: inline-block;
+  float: right;
+  font-family: Rokkitt;
+  font-size: 24px;
+  height: 39px;
+  line-height: 38px;
+  padding: 0 0 0 40px;
+  margin: 10px 0 0;
+  width: 141px;
+}
+a.register-link:hover {
+	text-decoration: none;
+}
+/**
+ * Main content
+ */
+.main.row {
+	background: url(../images/content-wrap-bg.jpg) repeat-y;
+}
+
+
+/**
+ * Footer
+ **/
+.footer {
+  background: url("../images/footer.jpg") repeat-x scroll 0 0 transparent;
+  height: 350px;
+}
+.footer-message {
+    padding: 40px 0;
+}
