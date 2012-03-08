@@ -33,7 +33,9 @@ a {
   float: right;
   text-transform: uppercase;
 }
-
+#logo {
+  margin:	0 0 0 -10px
+}
 /* main-menu */
 .primary-menu.block .inner {
  margin: 0;
@@ -72,8 +74,8 @@ a.register-link:hover {
 /**
  * Main content
  */
-.main.row {
-	background: url(../images/content-wrap-bg.jpg) repeat-y;
+.content-group-inner {
+	border-right: 2px solid #FFEBCF;
 }
 
 
