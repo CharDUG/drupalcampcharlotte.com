@@ -89,3 +89,40 @@ a.register-link:hover {
 .footer-message {
     padding: 40px 0;
 }
+
+/* attendees_clone view */
+#view-id-attendees_clone-page_1 .views-view-grid {
+  background-color:#F2F2F2;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td {
+  text-align:center;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-name,
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-picture {
+  background-color:#FFF;
+  width:119px;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-picture {
+  padding-top:10px;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-picture img {
+  border:solid 1px #D8DAD7;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-picture img:hover {
+  opacity: 0.8;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-name {
+  background: url(../images/user-profile-border-bottom.png) no-repeat scroll left bottom transparent;
+  padding-bottom:10px;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-name .field-content {
+  position:relative;
+  top:-6px;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-name .field-content a {
+  color:#00384F;
+  font-size:12px;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-name .field-content a:hover {
+  color:#4496B2;
+}
