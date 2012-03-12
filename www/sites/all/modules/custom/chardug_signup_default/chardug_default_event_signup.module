@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Sets a default for our single signup event to simplify user registration forms.
+ */
+
+/**
+ * Implementation of hook_form_FORM_ID_alter().
+ */
+function chardug_default_event_signup_form_user_register_alter(&$form, &$form_state) {
+  $form['signup']['#description'] = t('');
+  $form['signup'][3]['#default_value'] = 1;
+  $form['signup'][3]['#disabled'] = TRUE;
+}
