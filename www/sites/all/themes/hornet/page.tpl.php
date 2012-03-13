@@ -18,6 +18,7 @@
   <![endif]-->
   <?php print $local_styles; ?>
   <?php print $scripts; ?>
+  <meta name="viewport" content="width=device-width" />
 </head>
 
 <body id="<?php print $body_id; ?>" class="<?php print $body_classes; ?>">
