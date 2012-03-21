@@ -33,6 +33,11 @@ a {
   float: right;
   text-transform: uppercase;
 }
+
+.logged-in #primary-menu {
+  margin-top: 21px;
+}
+
 #logo {
   margin:	0 0 0 -10px
 }
@@ -125,4 +130,35 @@ a.register-link:hover {
 }
 #view-id-attendees_clone-page_1 .views-view-grid td .views-field-name .field-content a:hover {
   color:#4496B2;
+}
+
+
+/* Phone responsive hotness! */
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html {
+    -webkit-text-size-adjust: none;
+  }
+  body, div.full-width {
+    min-width: 0;
+  }
+  div.full-width {
+    width: 100%;
+  }
+  .grid16-16 {
+    width: 100%;
+  }
+  .clearfix::after, .clearfix .inner::after {
+    content: none;
+  }
+  .font-size-12 {
+    font-size: .95em;
+  }
+  img {
+    max-width: 100%;
+    width: auto;
+  }
+  #logo img {
+    width: 100px;
+  }
 }

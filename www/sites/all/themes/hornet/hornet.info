@@ -8,6 +8,7 @@ engine = phptemplate
 
 stylesheets[all][] = css/fusion-starter-style.css
 scripts[] = js/custom.js
+scripts[] = js/theme.js
 
 regions[sidebar_last] = sidebar last
 regions[header_top] = header top

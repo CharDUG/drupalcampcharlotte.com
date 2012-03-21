@@ -18,6 +18,7 @@
   <![endif]-->
   <?php print $local_styles; ?>
   <?php print $scripts; ?>
+  <meta name="viewport" content="width=device-width" />
 </head>
 
 <body id="<?php print $body_id; ?>" class="<?php print $body_classes; ?>">
@@ -105,7 +106,7 @@
                             <?php print theme('grid_block', $tabs, 'content-tabs'); ?>
                             <div id="content-inner" class="content-inner block">
                               <div id="content-inner-inner" class="content-inner-inner inner">
-                                <?php if ($title): ?>
+                                <?php if ($title && !$is_front): ?>
                                 <h1 class="title"><?php print $title; ?></h1>
                                 <?php endif; ?>
                                 <?php if ($content): ?>
