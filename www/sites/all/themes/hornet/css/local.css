@@ -33,6 +33,11 @@ a {
   float: right;
   text-transform: uppercase;
 }
+
+.logged-in #primary-menu {
+  margin-top: 21px;
+}
+
 #logo {
   margin:	0 0 0 -10px
 }
