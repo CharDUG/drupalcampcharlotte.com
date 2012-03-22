@@ -19,11 +19,26 @@ body {
 a {
 	color: #346480;
 }
+div#main-wrapper {
+  background: url(../images/footer.png) repeat-x bottom;
+}
+
+.page {
+  background-color: #fffefb;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 254, 251)), to(rgb(253, 232, 174)));
+  background-image: -webkit-linear-gradient(top, rgb(255, 254, 251), rgb(253, 232, 174));
+  background-image: -moz-linear-gradient(top, rgb(255, 254, 251), rgb(253, 232, 174));
+  background-image: -o-linear-gradient(top, rgb(255, 254, 251), rgb(253, 232, 174));
+  background-image: -ms-linear-gradient(top, rgb(255, 254, 251), rgb(253, 232, 174));
+  background-image: linear-gradient(top, rgb(255, 254, 251), rgb(253, 232, 174));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fffefb', EndColorStr='#fde8ae');
+}
+
 /**
  * Header
  */
 .header-group-wrapper {
-	background: url(../images/skyline.jpg) repeat-x #fff;
+	background: url(../images/skyline.jpg) repeat-x #fffbf0;
   height: 450px;
 }
 .header-group-wrapper a {
@@ -120,11 +135,17 @@ a.register-link:hover {
  * Footer
  **/
 .bottom {
-  background: url(../images/footer.jpg) repeat-x scroll 0 0 #366380;
+  background: #366380;
   min-height: 350px;
 }
 .footer-message {
     padding: 40px 0;
+}
+.sidebar-last-inner {
+  padding-left: 15px;
+}
+.content-group-inner {
+  padding-right: 15px;
 }
 
 /* attendees_clone view */
