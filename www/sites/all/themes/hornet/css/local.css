@@ -44,14 +44,11 @@ div#main-wrapper {
 .header-group-wrapper a {
 	color: #fff;
 }
-.user-login-link {
+.user-portal {
   float: right;
   text-transform: uppercase;
 }
 
-.logged-in #primary-menu {
-  margin-top: 21px;
-}
 
 #logo {
   margin:	0 0 0 -10px
