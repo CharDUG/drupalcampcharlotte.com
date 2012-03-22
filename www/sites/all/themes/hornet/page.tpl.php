@@ -37,7 +37,7 @@
           <div id="header-group-inner" class="header-group-inner inner clearfix">
             <?php print theme('grid_block', theme('links', $secondary_links), 'secondary-menu'); ?>
             <?php print theme('grid_block', $search_box, 'search-box'); ?>
-            <a class="user-login-link" href="<?php $base_path;?>/user/login">Log In</a>
+            <?php if($logged_in) { print l('Logout', 'logout', array('attributes' => array('title' => 'Logout', 'class' => 'user-portal'))); } else {print l('Login', 'user/login', array('attributes' => array('title' => 'Logout', 'class' => 'user-portal')));} ?>
             <?php print theme('grid_block', $primary_links_tree, 'primary-menu'); ?>
             <?php if ($logo || $site_name || $site_slogan): ?>
             <div id="header-site-info" class="header-site-info block">
