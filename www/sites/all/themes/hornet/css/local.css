@@ -133,6 +133,9 @@ a.register-link:hover {
 /**
  * Footer
  **/
+ .footer {
+  color: #fff;
+ }
 .bottom {
   background: #366380;
   min-height: 350px;
