@@ -38,7 +38,7 @@ div#main-wrapper {
  * Header
  */
 .header-group-wrapper {
-	background: url(../images/skyline.jpg) repeat-x #fff;
+	background: url(../images/skyline.jpg) repeat-x #fffbf0;
   height: 450px;
 }
 .header-group-wrapper a {
