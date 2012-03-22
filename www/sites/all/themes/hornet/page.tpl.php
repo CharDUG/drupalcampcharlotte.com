@@ -63,7 +63,7 @@
             <?php endif; ?>
 
             <?php print $header; ?>
-            <a href="#" class="register-link">Register Now</a>
+            <a href="/user/register" class="register-link">Register Now</a>
           </div><!-- /header-group-inner -->
         </div><!-- /header-group -->
       </div><!-- /header-group-wrapper -->
