@@ -44,7 +44,8 @@ a {
 	float: right;
   margin-right: 0;
 }
-.primary-menu a {
+.primary-menu a,
+.sidebar-last h2.block-title {
   font-family: 'Maiden Orange';
   font-size: 24px;
   letter-spacing: 1px;
@@ -74,10 +75,41 @@ a.register-link:hover {
 /**
  * Main content
  */
+.main-wrapper {
+  margin-top:25px;
+}
 .content-group-inner {
 	border-right: 2px solid #FFEBCF;
 }
 
+/* Sidebar */
+.sidebar-last h2.block-title {
+  background: url(../images/bg-blue-ribbon.png) repeat-x scroll 0 0 transparent;
+  margin:0;
+  min-height:60px;
+  overflow: hidden;
+  padding:21px 0 0 16px;
+  text-overflow: ellipsis;  
+  white-space: nowrap;
+  width: 215px;
+  color: #fff;
+  font-weight:normal;
+}
+.sidebar-last ul li,
+.sidebar-last ul.menu li {
+  border-bottom:1px solid #ffecd2;
+  margin: 0; /* LTR */
+  padding: 2px;
+  list-style-type: disc;
+  list-style-position: initial;
+  list-style-image:url(../images/bullet.png);
+}
+.sidebar-last ul li a {
+  font-weight:bold;
+}
+.sidebar-last ul li a.active {
+  color:#00384f;
+}
 
 /**
  * Footer
