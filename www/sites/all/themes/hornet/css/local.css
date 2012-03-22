@@ -141,6 +141,12 @@ a.register-link:hover {
 .footer-message {
     padding: 40px 0;
 }
+.sidebar-last-inner {
+  padding-left: 15px;
+}
+.content-group-inner {
+  padding-right: 15px;
+}
 
 /* attendees_clone view */
 #view-id-attendees_clone-page_1 .views-view-grid {
