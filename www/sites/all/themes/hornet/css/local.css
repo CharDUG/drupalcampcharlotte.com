@@ -75,6 +75,9 @@ div#main-wrapper {
 	padding-right: 0;
 }
 
+.primary-menu-inner ul.sf-menu a:hover {
+  color:#fcce06;
+}
 
 a.register-link {
   background: url(../images/gold-arrow.png) no-repeat scroll 0 0 transparent;
@@ -146,6 +149,13 @@ a.register-link:hover {
 }
 .content-group-inner {
   padding-right: 15px;
+}
+
+#footer a {
+  color:#fcce06;
+}
+#postscript-bottom-wrapper {
+  background: #366380;
 }
 
 /* attendees_clone view */
