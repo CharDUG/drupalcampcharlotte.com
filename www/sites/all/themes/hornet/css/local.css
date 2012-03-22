@@ -14,7 +14,7 @@
 /* 2. Rename this file to local.css                   */
 /* 3. Clear cached data at admin/settings/performance */
 body {
-	background: url(../images/skyline.jpg) repeat-x #fff;
+	background: url(../images/skyline.png) repeat-x;
 }
 a {
 	color: #346480;
@@ -38,7 +38,7 @@ div#main-wrapper {
  * Header
  */
 .header-group-wrapper {
-	background: url(../images/skyline.jpg) repeat-x #fffbf0;
+	background: url(../images/skyline.png) repeat-x;
   height: 450px;
 }
 .header-group-wrapper a {
