@@ -155,9 +155,6 @@ a.register-link:hover {
 }
 
 /* attendees_clone view */
-#view-id-attendees_clone-page_1 .views-view-grid {
-  background-color:#F2F2F2;
-}
 #view-id-attendees_clone-page_1 .views-view-grid td {
   text-align:center;
 }
