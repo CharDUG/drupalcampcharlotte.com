@@ -153,7 +153,7 @@ a.register-link:hover {
 #postscript-bottom-wrapper {
   background: #366380;
 }
-#footer .block ul {
+#footer .block ul { 
   margin-left: 0;
 }
 #footer li.leaf {
