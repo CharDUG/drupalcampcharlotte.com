@@ -153,6 +153,12 @@ a.register-link:hover {
 #postscript-bottom-wrapper {
   background: #366380;
 }
+#footer .block ul { 
+  margin-left: 0;
+}
+#footer li.leaf {
+  list-style-image: none;
+}
 
 /* attendees_clone view */
 #view-id-attendees_clone-page_1 .views-view-grid td {
