@@ -75,7 +75,7 @@
       <div id="main-wrapper" class="main-wrapper full-width">
         <div id="main" class="main row <?php print $grid_width; ?>">
           <div id="main-inner" class="main-inner inner clearfix">
-            
+
             <!-- main group: width = grid_width - sidebar_first_width -->
             <div id="main-group" class="main-group row nested <?php print $main_group_width; ?>">
               <div id="main-group-inner" class="main-group-inner inner">
@@ -86,8 +86,8 @@
                     <!-- content group: width = grid_width - (sidebar_first_width + sidebar_last_width) -->
                     <div id="content-group" class="content-group row nested <?php print $content_group_width; ?>">
                       <div id="content-group-inner" class="content-group-inner inner">
-                        <?php print theme('grid_block', $breadcrumb, 'breadcrumbs'); ?>
-                      
+                        <?php // print theme('grid_block', $breadcrumb, 'breadcrumbs'); ?>
+
                       <?php print $header_center; ?>
 
                         <?php if ($content_top || $help || $messages): ?>
@@ -138,24 +138,22 @@
       <!-- postscript-bottom row: width = grid_width -->
       <?php print theme('grid_row', $postscript_bottom, 'postscript-bottom', 'full-width', $grid_width); ?>
 
-      
-
     </div><!-- /page-inner -->
   </div><!-- /page -->
- <div class="bottom">
-  <div class="wrap">
-  <!-- footer-message row: width = grid_width -->
+  <div class="bottom">
+    <div class="wrap">
+      <?php if ($footer_message) : ?>
       <div id="footer-message-wrapper" class="footer-message-wrapper full-width">
         <div id="footer-message" class="footer-message row <?php print $grid_width; ?>">
           <div id="footer-message-inner" class="footer-message-inner inner clearfix">
             <?php print theme('grid_block', $footer_message, 'footer-message-text'); ?>
-          </div><!-- /footer-message-inner -->
-        </div><!-- /footer-message -->
-      </div><!-- /footer-message-wrapper -->
-      <!-- footer row: width = grid_width -->
+          </div>
+        </div>
+      </div>
+      <?php endif; ?>
       <?php print theme('grid_row', $footer, 'footer', 'full-width', $grid_width); ?>
-    </div><!-- /.footer.wrap -->
-  </div><!-- /.footer -->
+    </div>
+  </div>
   <?php print $closure; ?>
 </body>
 </html>

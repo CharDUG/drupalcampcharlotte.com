@@ -1,0 +1,78 @@
+<?php
+// $Id: features_override.install,v 1.1.2.1 2011/02/12 05:21:24 nedjo Exp $
+
+/**
+ * Implementation of hook_install().
+ */
+function features_override_install() {
+  drupal_install_schema('features_override');
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function features_override_uninstall() {
+  drupal_uninstall_schema('features_override');
+}
+
+/**
+ * Implementation of hook_schema()
+ */
+function features_override_schema() {
+  $schema = array();
+
+  $schema['features_override'] = array(
+    'description' => 'Storage for user-defined features_override templates.',
+    'export' => array(
+      'key' => 'name',
+      'identifier' => 'features_override',
+      'default hook' => 'default_features_overrides',  // Function hook name.
+      'primary key' => 'name',
+      'api' => array(
+        'owner' => 'features_override',
+        'api' => 'features_override',  // Base name for api include files.
+        'minimum_version' => 1,
+        'current_version' => 1,
+      ),
+    ),
+    'fields' => array(
+      'name' => array(
+        'description' => 'The primary identifier for a features override.',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'description' => array(
+        'description' => 'Description for this features override.',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'component_type' => array(
+        'description' => t('The override component type.'),
+        'type' => 'varchar',
+        'length' => 64,
+        'not null' => TRUE,
+      ),
+      'component_id' => array(
+        'description' => t('The override component id.'),
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+      ),
+      'value' => array(
+        'description' => t('Serialized storage of override.'),
+        'type' => 'text',
+        'serialize' => TRUE,
+      ),
+    ),
+    'indexes' => array(
+      'component' => array('component_type', 'component_id'),
+    ),
+    'primary key' => array('name'),
+  );
+
+  return $schema;
+}
