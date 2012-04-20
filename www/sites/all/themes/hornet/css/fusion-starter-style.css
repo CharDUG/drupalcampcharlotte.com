@@ -117,9 +117,11 @@ body {
 .primary-menu-inner ul.sf-menu a:visited  {
 }
 
+.primary-menu-inner ul.sf-menu li.active-trail a,
 .primary-menu-inner ul.sf-menu a:hover,
 .primary-menu-inner ul.sf-menu a:active,
 .primary-menu-inner ul.sf-menu a:focus {
+  color:#fcce06;
 }
 
 /* These are the top level menu items, add border-right here for separators */
@@ -296,6 +298,13 @@ body {
 /-------------------------------------------------------------- */
 /* Page and full node titles */
 h1.title {
+  color:#00384F; 
+  font-family: 'Maiden Orange';
+  font-size: 36px;
+  letter-spacing: 1px;
+  line-height: 36px;
+  margin:5px 0 20px 0;
+  text-transform: uppercase;   
 }
 
 

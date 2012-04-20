@@ -75,7 +75,7 @@ function fusion_core_preprocess_page(&$vars) {
   $body_classes[] = ($grid_type == 'fluid') ? theme_get_setting('fluid_grid_width') : '';            // Fluid grid width in %
   $body_classes = array_filter($body_classes);                                                       // Remove empty elements
   $vars['body_classes'] = implode(' ', $body_classes);                                               // Create class list separated by spaces
-  
+
   // Add a unique css id for the body tag by converting / or + or _ in the current page alias into a dash (-).
   $vars['body_id'] = 'pid-' . strtolower(preg_replace('/[_+\/]/', '-', drupal_get_path_alias($_GET['q'])));
 
@@ -147,7 +147,7 @@ function fusion_core_preprocess_page(&$vars) {
       $vars['styles'] = $styles;
     }
   }
-  
+
   // Replace page title as Drupal core does, but strip tags from site slogan.
   // Site name and slogan do not need to be sanitized because the permission
   // 'administer site configuration' is required to be set and should be given to
@@ -163,9 +163,9 @@ function fusion_core_preprocess_page(&$vars) {
         $head_title[] = strip_tags(variable_get('site_slogan', ''));
       }
     }
-    if (is_array($head_title)) $head_title = implode(' | ', $head_title);  
+    if (is_array($head_title)) $head_title = implode(' | ', $head_title);
     $vars['head_title'] = $head_title;
-  } 
+  }
 }
 
 
@@ -249,7 +249,7 @@ function fusion_core_preprocess_comment_wrapper(&$vars) {
 }
 
 /**
- * Returns a list of blocks.  
+ * Returns a list of blocks.
  * Uses Drupal block interface and appends any blocks assigned by the Context module.
  */
 function fusion_core_block_list($region) {
@@ -267,9 +267,9 @@ function fusion_core_block_list($region) {
 function fusion_core_preprocess_block(&$vars) {
   global $theme_info, $user;
   static $regions, $sidebar_first_width, $sidebar_last_width, $grid_name, $grid_width, $grid_fixed;
-  
+
   // Initialize position to avoid notice if function returns.
-  $vars['position'] = '';  
+  $vars['position'] = '';
 
   // Do not process blocks outside defined regions
   if (!in_array($vars['block']->region, array_keys($theme_info->info['regions']))) {
