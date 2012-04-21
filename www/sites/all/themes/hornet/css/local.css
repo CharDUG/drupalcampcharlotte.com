@@ -215,6 +215,7 @@ a.register-link:hover {
   position: absolute;
   width: 383px;
   padding-left: 403px;
+  z-index: 10;
 }
 #block-block-9 div.content {
   font-size:16px;
