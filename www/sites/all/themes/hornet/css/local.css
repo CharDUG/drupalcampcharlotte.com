@@ -211,11 +211,11 @@ a.register-link:hover {
 #block-block-9 {
   background: url(../images/bg-mini-banner.png) no-repeat right transparent;
   float: left;
-  padding-top: 214px;
+  padding-top: 200px;
   position: absolute;
   width: 383px;
-  padding-left: 403px;
   z-index: 10;
+  right: 168px;  
 }
 #block-block-9 div.content {
   font-size:16px;
