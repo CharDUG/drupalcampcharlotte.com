@@ -1422,7 +1422,7 @@ Are you interested in becoming a sponsor? Please learn about <a href="/about#spo
   $handler->override_option('style_plugin', 'grid');
   $handler->override_option('style_options', array(
     'grouping' => '',
-    'columns' => '5',
+    'columns' => '4',
     'alignment' => 'horizontal',
     'fill_single_line' => 1,
   ));

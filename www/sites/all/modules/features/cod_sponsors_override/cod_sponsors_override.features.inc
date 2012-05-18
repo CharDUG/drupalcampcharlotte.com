@@ -128,7 +128,7 @@ function cod_sponsors_override_imagecache_default_presets() {
           'module' => 'imagecache',
           'action' => 'imagecache_scale',
           'data' => array(
-            'width' => '225',
+            'width' => '310',
             'height' => '',
             'upscale' => 0,
           ),
