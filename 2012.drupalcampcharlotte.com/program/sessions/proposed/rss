@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://drupalcampcharlotte.com/program/sessions/accepted?field_experience_value_many_to_one=All&amp;field_track_value_many_to_one=All&amp;keys=" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Sessions</title>
+    <link>http://drupalcampcharlotte.com/program/sessions/accepted?field_experience_value_many_to_one=All&amp;field_track_value_many_to_one=All&amp;keys=</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Continuous Drupal deployment with Aegir, Git, and Jenkins</title>
+    <link>http://drupalcampcharlotte.com/sessions/continuous-drupal-deployment-aegir-git-and-jenkins</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/notzach&quot; title=&quot;View user profile.&quot;&gt;Zach Seifts&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Put on your devops caps folks, I&#039;m going to talk about continuous deployment with &lt;a href=&quot;http://community.aegirproject.org/&quot;&gt;Aeigr&lt;/a&gt;, &lt;a href=&quot;http://git-scm.com/&quot;&gt;Git&lt;/a&gt;, and &lt;a href=&quot;http://jenkins-ci.org/&quot;&gt;Jenkins&lt;/a&gt;. You&#039;ll be surprised how easy it can be to deploy code!&lt;/p&gt;
+&lt;p&gt;Deployment scripts: &lt;a href=&quot;https://github.com/zachseifts/aegir_deployment&quot;&gt;Aegir Deployment Scripts&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-slides&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Slides:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;a href=&quot;http://drupalcampcharlotte.com/sites/default/files/slides/dcclt2012-ci.pdf&quot; type=&quot;application/pdf; length=507979&quot;&gt;dcclt2012-ci.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1330-1430&quot;&gt;10 June 13:30 - 14:30&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/hot-drupal-linode&quot;&gt;Hot Drupal (Linode)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Advanced        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/continuous-drupal-deployment-aegir-git-and-jenkins#comments</comments>
+ <pubDate>Sat, 24 Mar 2012 14:48:33 +0000</pubDate>
+ <dc:creator>Zach Seifts</dc:creator>
+ <guid isPermaLink="false">22 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Creating and Deploying Drupal Distributions</title>
+    <link>http://drupalcampcharlotte.com/sessions/creating-and-deploying-drupal-distributions</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/shrop&quot; title=&quot;View user profile.&quot;&gt;Mark Shropshire&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Drupal distributions are a great way to quickly deploy Drupal core and standard sets of modules, libraries, themes, settings and content. This can be useful if you want to release an open source version of a Drupal setup you think others will enjoy, or to quickly deploy a standard set of Drupal tools you use for each project you start.&lt;/p&gt;
+&lt;p&gt;We will discuss creating and deploying Drupal distributions with technologies such as Drush Make, git, Profiler module, Features and installation profiles. The session will also include sample deployments of a Drupal distribution using Aegir and the Drush site-install/qd commands.&lt;/p&gt;
+&lt;p&gt;Every attendee will walk away with a sample Drupal distribution code framework to make it easier to create their own distributions!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://mark.shropshires.net/sites/default/files/DrupalCamp%20Charlotte%202012%20-%20Drupal%20Distributions.pdf&quot;&gt;Presentation slides&lt;/a&gt;&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1130-1230&quot;&gt;10 June 11:30 - 12:30&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/hot-drupal-linode&quot;&gt;Hot Drupal (Linode)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/creating-and-deploying-drupal-distributions#comments</comments>
+ <pubDate>Mon, 26 Mar 2012 01:53:51 +0000</pubDate>
+ <dc:creator>Mark Shropshire</dc:creator>
+ <guid isPermaLink="false">23 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Getting Started with Drupal Services</title>
+    <link>http://drupalcampcharlotte.com/sessions/getting-started-drupal-services</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/randallkent&quot; title=&quot;View user profile.&quot;&gt;Randall Kent&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If you have ever wanted to leverage Drupal as a web service, this session is for you! &lt;/p&gt;
+&lt;p&gt;In this session we will cover:&lt;br /&gt;
+ * The basics of REST&lt;br /&gt;
+ * Installing &amp;amp; Configuring the &lt;a href=&quot;rupal.org/project/services&quot;&gt;Services&lt;/a&gt; and related modules&lt;br /&gt;
+ * Managing nodes via a REST API&lt;/p&gt;
+&lt;p&gt;Randall Kent is currently with Sevaa Group and provides data migration, development, and commercial support for &lt;a href=&quot;http://www.sevaa.com/enterprise-drupal&quot;&gt;Enterprise Drupal&lt;/a&gt; deployments.&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1445-1545&quot;&gt;10 June 14:45 - 15:45&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/dev-cloud-slackware&quot;&gt;Dev Cloud (Slackware)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/getting-started-drupal-services#comments</comments>
+ <pubDate>Mon, 02 Apr 2012 17:54:49 +0000</pubDate>
+ <dc:creator>Randall Kent</dc:creator>
+ <guid isPermaLink="false">25 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Publishing with Drupal and distributing content with social media</title>
+    <link>http://drupalcampcharlotte.com/sessions/publishing-drupal-and-distributing-content-social-media</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/jhibbets&quot; title=&quot;View user profile.&quot;&gt;Jason Hibbets&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;How does a publication like opensource.com create and publish content with Drupal and then distribute with social media? This session will walk you through the intricate steps of our publishing process and provide tips and tricks on using social media to promote your Drupal content.&lt;/p&gt;
+&lt;p&gt;Questions answered by this session: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How does opensource.com create and gather content for their community?&lt;/li&gt;
+&lt;li&gt;How does opensource.com publish content?&lt;/li&gt;
+&lt;li&gt;How to distribute content with social media, specifically, Facebook, Twitter, and Flickr.&lt;/li&gt;
+&lt;li&gt;How social media can be used on Drupal sites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/publishing-drupal-and-distributing-content-social-media#comments</comments>
+ <pubDate>Tue, 03 Apr 2012 22:22:55 +0000</pubDate>
+ <dc:creator>Jason Hibbets</dc:creator>
+ <guid isPermaLink="false">26 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>BOA: Drupal Utopia</title>
+    <link>http://drupalcampcharlotte.com/sessions/boa-drupal-utopia</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/jimsmith&quot; title=&quot;View user profile.&quot;&gt;Jim Smith&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;How would you like to deploy and manage the hosting of your websites with automated control over many of the most difficult tasks? Would you like to have full backup and restoration capabilities? Spin off new sites or clone old sites? How about safely update your core and contrib modules? And what if you could do that in a secure server that was optimized for speed?&lt;/p&gt;
+&lt;p&gt;Sound too good to be true? Well wait, there&#039;s more! What if I told you the way to do this was so simple you could almost call it System Administration for Dummies?&lt;/p&gt;
+&lt;p&gt;And if that wasn&#039;t crazy enough, would you believe you can set up a development environment on your computer that mirrors the server setup?&lt;/p&gt;
+&lt;p&gt;Seriously, I&#039;m not over-selling this. This magical world of hosting your sites is not only possible, it is done the &quot;Drupal Way!&quot;&lt;/p&gt;
+&lt;p&gt;In this sesssion you will learn how to use the Barracuda and Octopus projects to install the Aegir hosting system (BOA). Together they turn a plain vanilla Linux server into an effiecient hosting environment running Nginx, MariaDB, and PHP-FPM, the champions of server speed. The setup and configuration also locks down your server so you don&#039;t have to constantly worry about security. &lt;/p&gt;
+&lt;p&gt;Then as a bonus, you&#039;ll learn about a project that provides an identical setup as a development environment that runs as a VirtualBox machine on your Mac or Windows PC.&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-slides&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Slides:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;a href=&quot;http://drupalcampcharlotte.com/sites/default/files/slides/drupal-utopia-drupalcampclt.pdf&quot; type=&quot;application/pdf; length=2753081&quot;&gt;drupal-utopia-drupalcampclt.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1600-1700&quot;&gt;10 June 16:00 - 17:00&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/hot-drupal-linode&quot;&gt;Hot Drupal (Linode)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/boa-drupal-utopia#comments</comments>
+ <pubDate>Thu, 05 Apr 2012 21:56:07 +0000</pubDate>
+ <dc:creator>Jim Smith</dc:creator>
+ <guid isPermaLink="false">27 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Performance for Site Builders</title>
+    <link>http://drupalcampcharlotte.com/sessions/performance-site-builders</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/erikwebb&quot; title=&quot;View user profile.&quot;&gt;Erik Webb&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Slides: &lt;a href=&quot;http://www.slideshare.net/erikwebb/performance-for-site-builders&quot;&gt;http://www.slideshare.net/erikwebb/performance-for-site-builders&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Most &quot;performance&quot; presentations are designed for those developers that straddle the line between coder and sysadmin. In reality many Drupal sites are built completely from the administrative interface by non-coders, non-sysadmins - we call &quot;site builders.&quot; This unique role is often overlooked during in-depth, technical presentations and relegated to &quot;Module XYZ 101&quot; sessions.&lt;/p&gt;
+&lt;p&gt;This presentation is designed to give site builders the knowledge and tools to built high-performance web sites without even touching PHP or the command-line. The Drupal community is ripe with ready-built modules and best practices that can significantly improve the performance of any Drupal site. Use the rapid site building modules to get your site up and running, then learn how to cut those page load times!&lt;/p&gt;
+&lt;p&gt;In this session you will learn how to&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply general best practices to your development process.&lt;/li&gt;
+&lt;li&gt;Tune the most common slow-performing modules (e.g. Views, Panels).&lt;/li&gt;
+&lt;li&gt;Evaluate the performance of modules before installing them.&lt;/li&gt;
+&lt;li&gt;Optimize a site&#039;s performance using additional modules.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;About Erik&lt;/p&gt;
+&lt;p&gt;Erik Webb is a Senior Technical Consultant at Acquia, where has has worked since early 2010. Building on his many years of experience with Drupal, enterprise PHP application development, and Red Hat systems architecture, he has worked with many of the largest Drupal users in the world, focusing on high performance and infrastructure. On his weekends away from Drupal, he spends his time finding that next great adventure with his wife, including flying thousands of feet above the ground, paragliding in the southeastern United States and all over the world. He lives and works out of Atlanta, GA (or wherever that next great Drupal project may be!).&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-slides&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Slides:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;a href=&quot;http://drupalcampcharlotte.com/sites/default/files/slides/Performance for Site Builders.pdf&quot; type=&quot;application/pdf; length=1781531&quot;&gt;Performance for Site Builders.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1015-1115&quot;&gt;10 June 10:15 - 11:15&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/hot-drupal-linode&quot;&gt;Hot Drupal (Linode)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/performance-site-builders#comments</comments>
+ <pubDate>Sat, 07 Apr 2012 17:24:17 +0000</pubDate>
+ <dc:creator>Erik Webb</dc:creator>
+ <guid isPermaLink="false">28 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Rapid Drupal Development using the Features Module</title>
+    <link>http://drupalcampcharlotte.com/sessions/rapid-drupal-development-using-features-module</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/mrconnerton&quot; title=&quot;View user profile.&quot;&gt;Matthew Connerton&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;br /&gt;
+In this session, we will discuss using the Features Module for Drupal 7 to build out reusable site functionality by pulling together entities, content types, fields, views, context and more. We will focus on how we can use features to package these entities together into reusable modules to make site building faster and cheaper.&lt;/p&gt;
+&lt;p&gt;Using features, anyone building Drupal sites from freelancer to mainstream Drupal agencies can shave hours of development time off the beginning of their site building.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We will talk about:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What the Features Module does and how to build features from views, fields, entities, content types, context, and more&lt;/li&gt;
+&lt;li&gt;How to set up a Feature Server to share your features&lt;/li&gt;
+&lt;li&gt;Using Drush Make to create your own &quot;distributions&quot; for rapid deployment&lt;/li&gt;
+&lt;li&gt;Adding custom hooks to your feature&lt;/li&gt;
+&lt;li&gt;Will touch on how to safely override your features on a site by site basis while retaining the ability to update that feature.&lt;/li&gt;
+&lt;li&gt;Will touch on how features apply to dev-&amp;gt;stage-&amp;gt;prod&lt;/li&gt;
+&lt;li&gt;A few other concepts related to features to take you to the next step&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Intended audience:&lt;/strong&gt;&lt;br /&gt;
+Anyone who wants to create reusable feature sets to be deployed quickly on other websites should attend this session.&lt;/p&gt;
+&lt;p&gt;Sitebuilders, freelancers, and organizations that want to save time when developing websites for clients.&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1015-1115&quot;&gt;10 June 10:15 - 11:15&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/dev-cloud-slackware&quot;&gt;Dev Cloud (Slackware)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/rapid-drupal-development-using-features-module#comments</comments>
+ <pubDate>Tue, 10 Apr 2012 20:03:10 +0000</pubDate>
+ <dc:creator>Matthew Connerton</dc:creator>
+ <guid isPermaLink="false">29 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>A Visual Approach to Drupal&#039;s Lego Blocks: Page Manager and Panels</title>
+    <link>http://drupalcampcharlotte.com/sessions/visual-approach-drupals-lego-blocks-page-manager-and-panels</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/jimsmith&quot; title=&quot;View user profile.&quot;&gt;Jim Smith&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The process of building Drupal websites has been &lt;a href=&quot;http://blog.el-studio.com/drupal-is-legos-for-websites&quot;&gt;compared&lt;/a&gt; to &lt;a href=&quot;http://www.webschuur.com/node/411&quot;&gt;playing&lt;/a&gt; with &lt;a href=&quot;http://www.lego.com/en-us/Default.aspx&quot;&gt;Legos&lt;/a&gt; building blocks and it&#039;s no wonder. Drupal&#039;s core architecture uses a building block approach, with each part locked tightly to the other.&lt;/p&gt;
+&lt;p&gt;There are a set of contributed modules, though, that take this analogy further. Page Manager, a part of &lt;a href=&quot;http://drupal.org/project/ctools&quot;&gt;Chaos Tools Suite&lt;/a&gt;, and &lt;a href=&quot;http://drupal.org/project/panels&quot;&gt;Panels&lt;/a&gt;, which provides numerous options for content and form presentation, allow a Drupal site builder to assemble complex layouts and content configurations without needing any custom code or advanced theming experience.&lt;/p&gt;
+&lt;p&gt;This session is designed to help beginner and intermediate developers explore the many options Page Manager and Panels provide, especially when used with &lt;a href=&quot;http://drupal.org/project/views&quot;&gt;Views&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;We&#039;ll dig deep into these modules to find a wide variety of building blocks to add to your set of Legos.&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-slides&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Slides:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;a href=&quot;http://drupalcampcharlotte.com/sites/default/files/slides/panels-page-mgr-drupalcampclt.pdf&quot; type=&quot;application/pdf; length=1439892&quot;&gt;panels-page-mgr-drupalcampclt.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1445-1545&quot;&gt;10 June 14:45 - 15:45&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/classic-cloudstack&quot;&gt;Classic (CloudStack)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/visual-approach-drupals-lego-blocks-page-manager-and-panels#comments</comments>
+ <pubDate>Sun, 15 Apr 2012 20:23:11 +0000</pubDate>
+ <dc:creator>Jim Smith</dc:creator>
+ <guid isPermaLink="false">31 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Responsive Design with Sass+Compass</title>
+    <link>http://drupalcampcharlotte.com/sessions/responsive-design-sasscompass</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/snugug&quot; title=&quot;View user profile.&quot;&gt;Sam Richard&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Mobile matters. There are more than 4x the number mobile devices activated each day than there babies born (&lt;a href=&quot;http://www.lukew.com/ff/entry.asp?1506&quot; title=&quot;http://www.lukew.com/ff/entry.asp?1506&quot;&gt;http://www.lukew.com/ff/entry.asp?1506&lt;/a&gt;) and the question of how to effectively deliver your content to everyone, regardless of how they get there, should be the most important question for product owners and developers today. Enter responsive design.&lt;/p&gt;
+&lt;p&gt;Responsive design comes from the idea that there is not a mobile web and a desktop web but instead a single, unified web. The most obvious new design paradigm to come from this new thinking are websites that are not built on a fixed width grid but rather one that expands and contracts depending on how much screen real estate is available to the current user. To be able to do this, however, you want a powerful set of tools at your disposal in order to aid in you in the large amount of work needed to build a responsive design. Enter Sass+Compass&lt;/p&gt;
+&lt;p&gt;Sass 3.2 introduces a number of new features designed specifically to aid in responsive design including the ability to modularize your media queries and call them on-demand or to write media queries based on calculations in your Sass files. Compass v0.12 improves upon Compass&#039;s already impecable mixin and function libraries with a large update to Compass&#039;s Image Sprite functionality, a traditionally hard technique made drop-dead easy and essential to the Mobile First Responsive Design philosophy that should be taken when designing websites.&lt;/p&gt;
+&lt;p&gt;Compass also allows us to tap into all a community of extensions to make your lives easier, including some that are specifically designed to help us with responsive design, including the Zurb Foundation Framework (&lt;a href=&quot;http://foundation.zurb.com/docs/&quot; title=&quot;http://foundation.zurb.com/docs/&quot;&gt;http://foundation.zurb.com/docs/&lt;/a&gt;), Twitter Bootstrap (&lt;a href=&quot;http://thesassway.com/projects/sass-twitter-bootstrap&quot; title=&quot;http://thesassway.com/projects/sass-twitter-bootstrap&quot;&gt;http://thesassway.com/projects/sass-twitter-bootstrap&lt;/a&gt;), and what I will spend the most time covering, a native Sass+Compass Drupal theme, Aurora (&lt;a href=&quot;http://drupal.org/project/aurora&quot; title=&quot;http://drupal.org/project/aurora&quot;&gt;http://drupal.org/project/aurora&lt;/a&gt;) powered by the Compass extension Aura (&lt;a href=&quot;https://github.com/Snugug/Aura&quot; title=&quot;https://github.com/Snugug/Aura&quot;&gt;https://github.com/Snugug/Aura&lt;/a&gt;).&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/responsive-design-sasscompass#comments</comments>
+ <pubDate>Tue, 17 Apr 2012 18:50:56 +0000</pubDate>
+ <dc:creator>Sam Richard</dc:creator>
+ <guid isPermaLink="false">32 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Desktop to Mobile Using Display Suite: From A Themers Perspective </title>
+    <link>http://drupalcampcharlotte.com/sessions/desktop-mobile-using-display-suite-themers-perspective</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/dante-taylor&quot; title=&quot;View user profile.&quot;&gt;Dante Taylor&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If you ever wondered how to easily control layout from desktop view to mobile or you just want a basic walk through on how to get started using Display Suite and a handful of other modules to quickly mange page layout, join my session Display Suite: From A Themer&#039;s Perspective. I will step through some of my experiences working with Display Suite and some of its potential use cases from desktop to mobile design.&lt;/p&gt;
+&lt;p&gt;During this session I will discuss some of the pros and cons of using Display Suite versus other theming tools. We will walk through a few ways Display Suite can be leveraged on just about any Drupal site to easily manage page layout without templates. &lt;/p&gt;
+&lt;p&gt;(Note: this will not be a Panels bashing party, so please leave your clubs, flame throwers, and stones at home. I will have themers on standby for riot control. Smile!!)&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1600-1700&quot;&gt;10 June 16:00 - 17:00&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/dev-cloud-slackware&quot;&gt;Dev Cloud (Slackware)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/desktop-mobile-using-display-suite-themers-perspective#comments</comments>
+ <pubDate>Mon, 23 Apr 2012 17:45:33 +0000</pubDate>
+ <dc:creator>Dante Taylor</dc:creator>
+ <guid isPermaLink="false">39 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Using node.js with Drupal</title>
+    <link>http://drupalcampcharlotte.com/sessions/using-nodejs-drupal</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/jitesh-doshi&quot; title=&quot;View user profile.&quot;&gt;Jitesh Doshi&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;http://nodejs.org/&quot;&gt;node.js&lt;/a&gt; is a server-side technology that not only lets you code your server-side in JavaScript, but more importantly lets regular hardware scale to &lt;a href=&quot;http://www.kegel.com/c10k.html&quot;&gt;thousands of active concurrent connections&lt;/a&gt;. A beefy Drupal server can perhaps take that many sessions, but not that many &lt;strong&gt;active&lt;/strong&gt; connections.&lt;/p&gt;
+&lt;p&gt;This session will show you how to &lt;strong&gt;use node.js in conjunction with Drupal&lt;/strong&gt; so that you can send &lt;strong&gt;real time notifications&lt;/strong&gt; to ALL users on your site at the same time - initiated by the server.&lt;/p&gt;
+&lt;p&gt;This has many applications such as ...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sudden news flashes and broadcast messages&lt;/li&gt;
+&lt;li&gt;Proactive chat with specific user(s)&lt;/li&gt;
+&lt;li&gt;Live play-by-play commentary of a game&lt;/li&gt;
+&lt;li&gt;Live trading quotes&lt;/li&gt;
+&lt;li&gt;Live bidding in auctions&lt;/li&gt;
+&lt;li&gt;... anything else you can imaging ...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/using-nodejs-drupal#comments</comments>
+ <pubDate>Wed, 25 Apr 2012 16:12:49 +0000</pubDate>
+ <dc:creator>Jitesh Doshi</dc:creator>
+ <guid isPermaLink="false">41 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Drush for Beginners</title>
+    <link>http://drupalcampcharlotte.com/sessions/drush-beginners</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/paulthed&quot; title=&quot;View user profile.&quot;&gt;Paul Thedinga&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Life is short, don’t spend all your time updating sites and modules through the Drupal GUI.  Save time and speed up routine tasks by using the Drupal command line shell Drush.  Come to this session to learn:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Drush overview and installation&lt;/li&gt;
+&lt;li&gt;Frequently used commands&lt;/li&gt;
+&lt;li&gt;Modules with Drush integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Intended Audience:&lt;/strong&gt;&lt;br /&gt;
+Drupal developers, themers, admins, etc. with basic Drupal knowledge.&lt;br /&gt;
+No Drush experience necessary.&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1600-1700&quot;&gt;10 June 16:00 - 17:00&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/classic-cloudstack&quot;&gt;Classic (CloudStack)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/drush-beginners#comments</comments>
+ <pubDate>Mon, 30 Apr 2012 00:36:42 +0000</pubDate>
+ <dc:creator>Paul Thedinga</dc:creator>
+ <guid isPermaLink="false">42 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Debugging Techniques for Drupal and LAMP</title>
+    <link>http://drupalcampcharlotte.com/sessions/debugging-techniques-drupal-and-lamp</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/rgristroph&quot; title=&quot;View user profile.&quot;&gt;Robert Ristroph&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A general approach to debugging Drupal problems will be presented, followed by an overview of a variety of tools such as the Devel suite, krumo, xdebug, client side debugging such as Firebug and LiveHTTPHeaders. In addition to debugging functionality, approaches to performance related problems will be covered. Some of these techniques apply generally to all web applications or other PHP code.&lt;br /&gt;
+A structured debugging approach that narrows down problems, rather than making random changes and guesses, is the main goal of the talk.&lt;/p&gt;
+&lt;p&gt;The audience will have a chance to share any debugging tricks they have during a question and answer session.&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-slides&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Slides:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;a href=&quot;http://drupalcampcharlotte.com/sites/default/files/slides/DebuggingTechniques_Charlotte2012.odp&quot; type=&quot;application/vnd.oasis.opendocument.presentation; length=290088&quot;&gt;DebuggingTechniques_Charlotte2012.odp&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;a href=&quot;http://drupalcampcharlotte.com/sites/default/files/slides/DebuggingTechniques_Charlotte2012.pdf&quot; type=&quot;application/pdf; length=298396&quot;&gt;DebuggingTechniques_Charlotte2012.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1445-1545&quot;&gt;10 June 14:45 - 15:45&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/hot-drupal-linode&quot;&gt;Hot Drupal (Linode)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/debugging-techniques-drupal-and-lamp#comments</comments>
+ <pubDate>Wed, 02 May 2012 22:53:09 +0000</pubDate>
+ <dc:creator>Robert Ristroph</dc:creator>
+ <guid isPermaLink="false">44 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Simple DevOps Using Jenkins</title>
+    <link>http://drupalcampcharlotte.com/sessions/simple-devops-using-jenkins</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/rgristroph&quot; title=&quot;View user profile.&quot;&gt;Robert Ristroph&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This presentation will cover a simple setup of a Jenkins (it can even run on your laptop), and a set of scripts will be demonstrated that enable the following automation and workflow:&lt;/p&gt;
+&lt;p&gt;* Run Drupal cron from Jenkins via drush&lt;br /&gt;
+* Create backups&lt;br /&gt;
+* Restore from backups&lt;br /&gt;
+* Refresh a development environment with the database from live&lt;br /&gt;
+* Update stage, triggered on a commit to version control&lt;br /&gt;
+* Update production, manually triggered after testing stage&lt;/p&gt;
+&lt;p&gt;As much as this will done live as possible; slides and screenshots will be a fallback. Electronic copy of the scripts and other files will be provided, so that attendees can modify and use them.&lt;/p&gt;
+&lt;p&gt;The presentation is aimed at smaller teams and freelancers, who might consider an automated setup to have too much overhead to be worth it; the goal is to demonstrate that there is a good payoff from a small investment in DevOps.&lt;/p&gt;
+&lt;p&gt;Update: the example jobs can be downloaded from &lt;a href=&quot;http://fourkitchens.com/sites/default/files/blog/files/notes-and-example-jobs_0.zip&quot; title=&quot;http://fourkitchens.com/sites/default/files/blog/files/notes-and-example-jobs_0.zip&quot;&gt;http://fourkitchens.com/sites/default/files/blog/files/notes-and-example...&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-slides&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Slides:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;a href=&quot;http://drupalcampcharlotte.com/sites/default/files/slides/JenkinsCharlotte2012.odp&quot; type=&quot;application/vnd.oasis.opendocument.presentation; length=171285&quot;&gt;JenkinsCharlotte2012.odp&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;a href=&quot;http://drupalcampcharlotte.com/sites/default/files/slides/JenkinsCharlotte2012.pdf&quot; type=&quot;application/pdf; length=281129&quot;&gt;JenkinsCharlotte2012.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1330-1430&quot;&gt;10 June 13:30 - 14:30&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/dev-cloud-slackware&quot;&gt;Dev Cloud (Slackware)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/simple-devops-using-jenkins#comments</comments>
+ <pubDate>Thu, 03 May 2012 16:31:36 +0000</pubDate>
+ <dc:creator>Robert Ristroph</dc:creator>
+ <guid isPermaLink="false">45 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Overview of a High-Performance Drupal Architecture</title>
+    <link>http://drupalcampcharlotte.com/sessions/overview-high-performance-drupal-architecture</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/rgristroph&quot; title=&quot;View user profile.&quot;&gt;Robert Ristroph&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This talk will describe a linux-based stack designed to serve up a Drupal application in a high-performance way. It will cover reverse proxy caches (Varnish), Apache vs. nginx, the APC opcode cache, memcache and redis, expanding the stack&lt;br /&gt;
+accross clusters, and MySQL database replication.  The &quot;mercury stack&quot; will be covered, along with tweaks and changes that have become standard since it was first described.  Series of block diagrams of a single server, small cluster, and large cluster will be shown and explained.  At the end we will discuss some of the hard scaling problems that don&#039;t have standard solutions yet - clustered file storage, large database write loads, etc.&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Advanced        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/overview-high-performance-drupal-architecture#comments</comments>
+ <pubDate>Thu, 03 May 2012 22:18:45 +0000</pubDate>
+ <dc:creator>Robert Ristroph</dc:creator>
+ <guid isPermaLink="false">46 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Bean Roasting: Creating block entities and writing plugins with the Bean module. </title>
+    <link>http://drupalcampcharlotte.com/sessions/bean-roasting-creating-block-entities-and-writing-plugins-bean-module</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/brantwynn&quot; title=&quot;View user profile.&quot;&gt;Brant Wynn&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This presentation aims to help people get up and running using the Bean module.  (&lt;a href=&quot;http://drupal.org/project/bean&quot; title=&quot;http://drupal.org/project/bean&quot;&gt;http://drupal.org/project/bean&lt;/a&gt;)  Bean is an acronym that stands for Block Entities Aren&#039;t Nodes. Beans are fieldable, pluggable, reusable block entities. We will go over the basics of using the Bean UI and dive into code examples for writing custom Bean plugins.&lt;/p&gt;
+&lt;p&gt;	•	Overview of Entities in Drupal 7&lt;br /&gt;
+	•	An Introduction to Bean and Bean UI&lt;br /&gt;
+	•	Using View Modes with Bean &amp;amp; Entity View Modes&lt;br /&gt;
+	•	Creating a reusable Bean with custom fields using the UI&lt;br /&gt;
+	•	The PHP behind the Bean Example (Article Listing) Plugin Module&lt;br /&gt;
+	•	Overview of code inside cool Bean plugin modules (i.e.:  Bean Relevant, Twitter Pull, Service Links)&lt;br /&gt;
+	•	Interactive discussion about best practices for block configuration/placement&lt;/p&gt;
+&lt;p&gt;Much of this presentation will make use of code and walkthroughs within a working sandbox environment.  Slides, code snippets and screenshots will be used for some portions of the presentation as well.&lt;/p&gt;
+&lt;p&gt;The goal is to provide a groundwork for where to start with Bean and encourage developers to write their own custom bean plugins. Attendees will walk away with a better understanding of Bean and its user interface. Those unfamiliar with Entities &amp;amp; View Modes in Drupal 7 may get an additional benefit from this course.&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/bean-roasting-creating-block-entities-and-writing-plugins-bean-module#comments</comments>
+ <pubDate>Mon, 07 May 2012 18:06:33 +0000</pubDate>
+ <dc:creator>Brant Wynn</dc:creator>
+ <guid isPermaLink="false">48 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>A Step-by-Step Drupal Site, in Less than One Hour</title>
+    <link>http://drupalcampcharlotte.com/sessions/step-step-drupal-site-less-one-hour</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/bdone&quot; title=&quot;View user profile.&quot;&gt;Brent Dunn&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;As a DrupalCamp attendee, it’s easy to look at the theoretical and technical parts of Drupal— but not actually get to see it in action. So, how do you get started? Watch the step-by-step process as we go from downloading Drupal, move beyond “out-of-the-box”, and begin adding customizations one-by-one, building a website that includes the latest web technologies.&lt;/p&gt;
+&lt;p&gt;Attendees should leave Drupalcamp Charlotte knowing first-hand what it looks like to turn Drupal into a modern day website. Our completed site and source code will be available for download and with time permitting, will include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Slideshow and Photo Galleries&lt;/li&gt;
+&lt;li&gt;Social Integration with Facebook and Twitter&lt;/li&gt;
+&lt;li&gt;Support for your own Video and Embedded Media&lt;/li&gt;
+&lt;li&gt;An Event Calendar&lt;/li&gt;
+&lt;li&gt;Blog&lt;/li&gt;
+&lt;li&gt;A Mobile-friendly Theme&lt;/li&gt;
+&lt;li&gt;Newsletter Subscriptions&lt;/li&gt;
+&lt;li&gt;Site Search&lt;/li&gt;
+&lt;li&gt;Custom Survey Forms&lt;/li&gt;
+&lt;li&gt;Content Revisions&lt;/li&gt;
+&lt;li&gt;User Comments and Comments Mangement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;INTENDED AUDIENCE:&lt;/strong&gt; Geared towards beginners but also interesting for those with Drupal experience.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Session Files:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://vimeo.com/43868571&quot;&gt;Session video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/sites/default/files/step-by-step-drupal.zip&quot;&gt;Download session slides, site export, and database&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1130-1230&quot;&gt;10 June 11:30 - 12:30&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/classic-cloudstack&quot;&gt;Classic (CloudStack)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/step-step-drupal-site-less-one-hour#comments</comments>
+ <pubDate>Tue, 08 May 2012 13:47:36 +0000</pubDate>
+ <dc:creator>Brent Dunn</dc:creator>
+ <guid isPermaLink="false">49 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Introduction to Site Building With Drupal</title>
+    <link>http://drupalcampcharlotte.com/sessions/introduction-site-building-drupal</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/deetergp&quot; title=&quot;View user profile.&quot;&gt;Scott Deeter&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;So you&#039;ve been hearing about this Drupal stuff and are ready to get your hands dirty but not entirely certain where to begin. This talk is indended to help you. In this session, we will cover a soup-to-nuts breakdown of what Drupal is, what you need to make it work, and how to get some content all up in your nodes. At the end of our hour together, you will have enough knowledge to be dangerous. You will be armed with an understanding of the basics and poised to better understand the other presentations at DrupalCamp Charlotte.&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/introduction-site-building-drupal#comments</comments>
+ <pubDate>Tue, 08 May 2012 22:06:15 +0000</pubDate>
+ <dc:creator>dccadmin</dc:creator>
+ <guid isPermaLink="false">50 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>From HTML to Drupal Theme</title>
+    <link>http://drupalcampcharlotte.com/sessions/html-drupal-theme</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/tlattimore&quot; title=&quot;View user profile.&quot;&gt;Thomas Lattimore&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ever wanted to get involved in theming but didn&#039;t know where to start? This is an introduction to Drupal theming for the complete newbie. Covering both the concepts around what theming is, and giving instructions on how to get started building a theme.&lt;/p&gt;
+&lt;p&gt;This session will cover:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The basic process of converting html to a Drupal Theme&lt;/li&gt;
+&lt;li&gt;How your theme relates to Drupal&#039;s file structure&lt;/li&gt;
+&lt;li&gt;Overriding template files&lt;/li&gt;
+&lt;li&gt;Theming best practices, and more!&lt;/li&gt;
+&lt;/ul&gt;&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1015-1115&quot;&gt;10 June 10:15 - 11:15&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/classic-cloudstack&quot;&gt;Classic (CloudStack)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/html-drupal-theme#comments</comments>
+ <pubDate>Fri, 11 May 2012 18:06:40 +0000</pubDate>
+ <dc:creator>Thomas Lattimore</dc:creator>
+ <guid isPermaLink="false">52 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Getting involved is learning</title>
+    <link>http://drupalcampcharlotte.com/sessions/getting-involved-learning</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/user/19&quot; title=&quot;View user profile.&quot;&gt;David Norman&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Getting to learn Drupal means getting involved in what is the Drupal co-op. It&#039;s one thing to specialize as a PHP programmer, or as a themer with a specific audience, but Drupal is big enough you can specialize in parts of Drupal. This session will cover all the many areas where you can apply your interests an talents to both learn about Drupal and help the co-op thrive.&lt;/p&gt;
+&lt;p&gt;Presented by David Norman, with his 11 years of Drupal background, combined with his short attention span, he has touched on almost every part of possible Drupal involvement. This presentation will cover both technical programming style involvement, as well as technical writing, non-profit management, group organizing, and others.&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1330-1430&quot;&gt;10 June 13:30 - 14:30&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/classic-cloudstack&quot;&gt;Classic (CloudStack)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/getting-involved-learning#comments</comments>
+ <pubDate>Fri, 11 May 2012 20:16:16 +0000</pubDate>
+ <dc:creator>David Norman</dc:creator>
+ <guid isPermaLink="false">53 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>SEO with Drupal 6 and Drupal 7</title>
+    <link>http://drupalcampcharlotte.com/sessions/seo-drupal-6-and-drupal-7</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/david-minton&quot; title=&quot;View user profile.&quot;&gt;David Minton&lt;/a&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/stephen-pashby&quot; title=&quot;View user profile.&quot;&gt;Stephen Pashby&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Overview:&lt;br /&gt;
+In this session, we will discuss Drupal as a Search Engine Optimization (SEO) platform.&lt;br /&gt;
+We will cover customizing your Drupal site to support your SEO efforts with specific advice for Drupal 6 and Drupal 7.&lt;/p&gt;
+&lt;p&gt;We will cover:&lt;br /&gt;
+SEO Fundamentals: How SEO works and why you should care&lt;br /&gt;
+Drupal and SEO: Drupal Core&#039;s default behavior for SEO and how you can augment it&lt;br /&gt;
+SEO Best Practices for Drupal: How to train your content creators and site managers for SEO success&lt;br /&gt;
+Drupal SEO Module Selection for Drupal 6 and Drupal 7&lt;/p&gt;
+&lt;p&gt;Intended audience: Anyone with a Drupal site or is considering a Drupal site who is concerned about your placement in search engines&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1130-1230&quot;&gt;10 June 11:30 - 12:30&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/dev-cloud-slackware&quot;&gt;Dev Cloud (Slackware)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/seo-drupal-6-and-drupal-7#comments</comments>
+ <pubDate>Fri, 11 May 2012 21:39:30 +0000</pubDate>
+ <dc:creator>Stephen Pashby</dc:creator>
+ <guid isPermaLink="false">55 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Use Display Suite, Make Fewer Custom Templates</title>
+    <link>http://drupalcampcharlotte.com/sessions/use-display-suite-make-fewer-custom-templates</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/ultimike&quot; title=&quot;View user profile.&quot;&gt;Michael Anello&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The Display Suite module is a wonderful way of customizing node (and any entity for that matter) templates through a drag-and-drop UI. You&#039;ll be amazed at how Display Suite elegantly extends what Drupal core provides site administrators when it comes to displaying entity content.&lt;/p&gt;
+&lt;p&gt;While not a replacement for the Panels module, Display Suite has clearly been influenced by it, and leverages its ideas in a new way. This presentation will only scratch the surface of what Display Suite is capable of - it will only focus on using it to provide alternate &quot;view modes&quot; for entities&#039; (nodes, users, taxonomy terms, etc...) display pages as well as demonstrating how it can be used to create new layouts (instead of having to create custom theme templates) for the same entities.&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Intermediate        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/use-display-suite-make-fewer-custom-templates#comments</comments>
+ <pubDate>Mon, 14 May 2012 15:15:18 +0000</pubDate>
+ <dc:creator>dccadmin</dc:creator>
+ <guid isPermaLink="false">57 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Social/Meetup Time</title>
+    <link>http://drupalcampcharlotte.com/sessions/socialmeetup-time</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/dccadmin&quot; title=&quot;View user profile.&quot;&gt;dccadmin&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A great opportunity to get to know your fellow Drupalers.&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-0830-0900&quot;&gt;10 June 08:30 - 09:00&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/classic-cloudstack&quot;&gt;Classic (CloudStack)&lt;/a&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                      &lt;div class=&quot;field-label-inline&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/hot-drupal-linode&quot;&gt;Hot Drupal (Linode)&lt;/a&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/dev-cloud-slackware&quot;&gt;Dev Cloud (Slackware)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/socialmeetup-time#comments</comments>
+ <pubDate>Fri, 01 Jun 2012 15:25:09 +0000</pubDate>
+ <dc:creator>dccadmin</dc:creator>
+ <guid isPermaLink="false">69 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Lunch</title>
+    <link>http://drupalcampcharlotte.com/sessions/lunch</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/dccadmin&quot; title=&quot;View user profile.&quot;&gt;dccadmin&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Official lunch break!™&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-1230-1330&quot;&gt;10 June 12:30 - 13:30&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/classic-cloudstack&quot;&gt;Classic (CloudStack)&lt;/a&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                      &lt;div class=&quot;field-label-inline&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/dev-cloud-slackware&quot;&gt;Dev Cloud (Slackware)&lt;/a&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/hot-drupal-linode&quot;&gt;Hot Drupal (Linode)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/lunch#comments</comments>
+ <pubDate>Fri, 01 Jun 2012 15:41:57 +0000</pubDate>
+ <dc:creator>dccadmin</dc:creator>
+ <guid isPermaLink="false">74 at http://drupalcampcharlotte.com</guid>
+  </item>
+  <item>
+    <title>Keynote Speech</title>
+    <link>http://drupalcampcharlotte.com/sessions/keynote-speech</link>
+    <description>&lt;div class=&quot;field field-type-userreference field-field-speakers&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Speaker(s):&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupalcampcharlotte.com/users/dccadmin&quot; title=&quot;View user profile.&quot;&gt;dccadmin&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ken Rickard&#039;s DrupalCamp Charlotte 2012 keynote speech.&lt;/p&gt;
+&lt;fieldset class=&quot;fieldgroup group-schedule&quot;&gt;&lt;legend&gt;Schedule info&lt;/legend&gt;&lt;div class=&quot;field field-type-nodereference field-field-session-slot&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time slot:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/10-june-0900-1000&quot;&gt;10 June 09:00 - 10:00&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-session-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                    &lt;a href=&quot;/rooms/hot-drupal-linode&quot;&gt;Hot Drupal (Linode)&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-audience&quot;&gt;&lt;div class=&quot;field field-type-text field-field-experience&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Experience level:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Beginner        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://drupalcampcharlotte.com/sessions/keynote-speech#comments</comments>
+ <pubDate>Fri, 01 Jun 2012 15:27:54 +0000</pubDate>
+ <dc:creator>dccadmin</dc:creator>
+ <guid isPermaLink="false">72 at http://drupalcampcharlotte.com</guid>
+  </item>
+  </channel>
+</rss>

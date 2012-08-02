@@ -1,0 +1,334 @@
+
+/****************************/
+/* LOCAL CSS                */
+/****************************/
+
+/* Put your custom CSS and CSS overrides in this file and  */
+/* rename it local.css.  By restricting your CSS changes   */
+/* to local.css, your changes will not be overwritten when */
+/* upgrading to a new version of this theme.  You can also */
+/* use a local-rtl.css file for the equivalent in RTL.     */
+
+/* Steps to activate local.css:                       */
+/* 1. Add your custom CSS to this file                */
+/* 2. Rename this file to local.css                   */
+/* 3. Clear cached data at admin/settings/performance */
+body {
+	background: url(../images/skyline.png) repeat-x;
+}
+a {
+	color: #346480;
+}
+div#main-wrapper {
+  /* background: url(../images/footer.png) repeat-x bottom; */
+}
+
+.page {
+  /* fallback */
+  background-color: #fffcf4;
+  background-image: url(../images/bg-page-linear.png);
+  /* fallback DIY*/
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from(#fde8ae), color-stop(0.70, #ffffff), to(#ffffff));
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-linear-gradient(left, #fde8ae, #ffffff 70%);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(left, #fde8ae, #ffffff 70%);
+  /* IE 10 */
+  background: -ms-linear-gradient(left, #fde8ae, #ffffff 70%);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, #fde8ae, #ffffff 70%);  
+}
+
+/**
+ * Header
+ */
+.header-group-wrapper {
+	background: url(../images/skyline.png) repeat-x;
+  height: 450px;
+}
+.header-group-wrapper a {
+	color: #fff;
+}
+.user-portal {
+  float: right;
+  text-transform: uppercase;
+}
+
+
+#logo {
+  margin:	0 0 0 -10px
+}
+/* main-menu */
+.primary-menu.block .inner {
+ margin: 0;
+}
+.primary-menu-inner {
+	float: right;
+  margin-right: 0;
+}
+.primary-menu a,
+.sidebar-last h2.block-title {
+  font-family: 'Maiden Orange';
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.primary-menu .last a {
+	padding-right: 0;
+}
+
+a.register-link {
+  background: url(../images/gold-arrow.png) no-repeat scroll 0 0 transparent;
+  color: #C05818;
+  display: inline-block;
+  float: right;
+  font-family: Rokkitt;
+  font-size: 24px;
+  height: 39px;
+  line-height: 43px;
+  padding: 0 0 0 40px;
+  margin: 10px 0 0;
+  width: 141px;
+}
+a.register-link:hover {
+	text-decoration: none;
+}
+/**
+ * Main content
+ */
+.main-wrapper {
+  margin-top:38px;
+}
+
+/* Sidebar */
+.sidebar-last h2.block-title {
+  background: url(../images/bg-blue-ribbon.png) repeat-x scroll 0 0 transparent;
+  margin:0;
+  min-height:60px;
+  overflow: hidden;
+  padding:21px 0 0 16px;
+  text-overflow: ellipsis;  
+  white-space: nowrap;
+  color: #fff;
+  font-weight:normal;
+}
+.sidebar-last h3 {
+  color: #F5871F;
+  font-weight:bold;
+  font-size:18px;
+  margin-bottom:15px;
+}
+.sidebar-last ul li,
+.sidebar-last ul.menu li {
+  border-bottom:1px solid #ffecd2;
+  margin: 0; /* LTR */
+  padding: 2px;
+  list-style-type: disc;
+  list-style-position: initial;
+  list-style-image:url(../images/bullet.png);
+}
+.sidebar-last ul li a {
+  font-weight:bold;
+}
+.sidebar-last ul li a.active {
+  color:#00384f;
+}
+
+/**
+ * Footer
+ **/
+.footer {
+  color: #fff;
+  font-size:13px;
+  font-weight:normal;
+  padding-top:20px;
+}
+.bottom {
+  /* fallback */
+  background-color: #356480;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#6fafca), to(#356480));
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #6fafca, #356480);
+  /* Firefox 3.6+ */ 
+  background: -moz-radial-gradient(circle, #6fafca, #356480);
+  /* IE 10 */ 
+  background: -ms-radial-gradient(circle, #6fafca, #356480);
+  /* Opera cannot do radial gradients yet */
+}
+.footer-message {
+    padding: 40px 0;
+}
+.sidebar-last-inner {
+  padding-left: 15px;
+}
+.content-group-inner {
+  padding-right: 15px;
+}
+
+#footer a {
+  color:#F8A51C;
+  text-decoration:none;
+}
+#footer a:hover {
+  color:#FFD400;
+}
+#postscript-bottom-wrapper {
+  background: #366380;
+}
+#footer .block ul { 
+  margin-left: 0;
+}
+#footer li.leaf {
+  list-style-image: none;
+}
+#footer-inner div.block-views div.view-header {
+  padding-bottom:5px;
+  text-transform:uppercase;
+}
+#footer-inner div.block-views {
+  width:100%;  
+}
+#footer-inner div.block-views ul li {
+  display: inline;
+  list-style-type: none;
+}
+#footer-inner div.block-views ul li div {
+  float:left;
+}
+#footer-inner div.block-views ul li .views-field-field-logo-white-fid {
+  padding-right: 35px;
+}
+#footer-inner div.block-views ul li.views-row-last .views-field-field-logo-white-fid {
+  padding-right: 0;
+}
+
+/* sponsors needed */
+#block-block-9 {
+  background: url(../images/bg-mini-banner.png) no-repeat right transparent;
+  float: left;
+  padding-top: 200px;
+  position: absolute;
+  width: 383px;
+  z-index: 10;
+  right: 168px;  
+}
+#block-block-9 div.content {
+  font-size:16px;
+  color:#FFF;
+  padding-top:50px;
+}
+#block-block-9 div.content p {
+  padding: 23px 10% 10px 15%; 
+}
+
+#footer #block-menu-primary-links {
+  font-size:14px;
+  font-weight:bold;
+  width:100%;
+  margin: 5px 0 0 0;
+}
+#footer #block-block-2 {
+  font-size:12px;
+  font-weight:bold;
+  width:100%;
+}
+#footer #block-menu-primary-links ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right:20px;
+}
+
+/* sponsors page */
+#pid-sponsors #content-inner-inner div.view-header h3.sponsor-level {
+  color:#F5871F;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+#pid-sponsors #content-inner-inner .attachment {
+  border-top:1px solid #FFD9A5;
+  margin-top:10px;
+}
+#pid-sponsors #content-inner-inner .attachment div.view {
+  border-bottom:1px solid #FFD9A5;
+  margin: 15px 0;
+}
+#pid-sponsors #content-inner-inner .attachment div.view .view-content {
+  margin-bottom: 15px;
+}
+#pid-sponsors #content-inner-inner .attachment div.view.view-display-id-attachment_3 {
+  border-bottom:none;
+  margin: 15px 0;
+}
+#pid-sponsors #content-inner-inner .attachment div.view-header {
+  padding:0 0 10px 0;
+}
+
+/* attendees_clone view */
+#view-id-attendees_clone-page_1 .views-view-grid td {
+  text-align:center;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-name,
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-picture {
+  background-color:#FFF;
+  width:119px;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-picture {
+  padding-top:10px;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-picture img {
+  border:solid 1px #D8DAD7;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-picture img:hover {
+  opacity: 0.8;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-name {
+  background: url(../images/user-profile-border-bottom.png) no-repeat scroll left bottom transparent;
+  padding-bottom:10px;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-name .field-content {
+  position:relative;
+  top:-6px;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-name .field-content a {
+  color:#00384F;
+  font-size:12px;
+}
+#view-id-attendees_clone-page_1 .views-view-grid td .views-field-name .field-content a:hover {
+  color:#4496B2;
+}
+
+
+/* Phone responsive hotness! */
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html {
+    -webkit-text-size-adjust: none;
+  }
+  body, div.full-width {
+    min-width: 0;
+  }
+  div.full-width {
+    width: 100%;
+  }
+  .grid16-16 {
+    width: 100%;
+  }
+  .clearfix::after, .clearfix .inner::after {
+    content: none;
+  }
+  .font-size-12 {
+    font-size: .95em;
+  }
+  img {
+    max-width: 100%;
+    width: auto;
+  }
+  #logo img {
+    width: 100px;
+  }
+}
