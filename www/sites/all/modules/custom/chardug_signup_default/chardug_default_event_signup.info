@@ -1,4 +1,0 @@
-name = "CharDUG Default Event Signup"
-description = "Set a default event signup on user registration forms."
-package = "CharDUG"
-core = 6.x
