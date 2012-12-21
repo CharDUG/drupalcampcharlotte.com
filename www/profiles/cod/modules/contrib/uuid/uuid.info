@@ -1,3 +1,0 @@
-name = "Universally Unique IDentifier (UUID)"
-description = "Generate Universally Unique IDentifier (UUID) for content."
-core = 6.x
