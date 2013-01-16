@@ -18,6 +18,7 @@
         text-align: center;
        }
       .logo { margin: 75px 0 20px 0; }
+      .mailchimp {font-family: Arial; color: #fff;}
 
       /*
       Animate.css - http://daneden.me/animate
@@ -199,9 +200,11 @@
     <div>
       <div class="logo bounceInLeft animated"><img src="images/logo.png" alt="Home"></div>
       <div class="animated fadeInUp"><img src="images/coming-soon.png" alt="Coming Soon DrupalCamp Charlotte 2013"></div>
-      <!-- // MAILCHIMP SUBSCRIBE CODE \\ -->
-      <a href="http://eepurl.com/t5KWb">Subscribe to our newsletter</a>
-      <!-- \\ MAILCHIMP SUBSCRIBE LINK // -->
+      <div class="mailchimp">
+        <!-- // MAILCHIMP SUBSCRIBE CODE \\ -->
+        <a href="http://eepurl.com/t5KWb">Subscribe to be notified with DrupalCamp Charlotte 2013 news</a>
+        <!-- \\ MAILCHIMP SUBSCRIBE LINK // -->
+      </div>
     </div>
   </body>
 </html>
