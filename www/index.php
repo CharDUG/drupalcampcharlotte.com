@@ -199,6 +199,9 @@
     <div>
       <div class="logo bounceInLeft animated"><img src="images/logo.png" alt="Home"></div>
       <div class="animated fadeInUp"><img src="images/coming-soon.png" alt="Coming Soon DrupalCamp Charlotte 2013"></div>
+      <!-- // MAILCHIMP SUBSCRIBE CODE \\ -->
+      <a href="http://eepurl.com/t5KWb">Subscribe to our newsletter</a>
+      <!-- \\ MAILCHIMP SUBSCRIBE LINK // -->
     </div>
   </body>
 </html>
