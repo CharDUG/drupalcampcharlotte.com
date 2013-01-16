@@ -18,7 +18,17 @@
         text-align: center;
        }
       .logo { margin: 75px 0 20px 0; }
-      .mailchimp {font-family: Arial; color: #fff;}
+      .mailchimp {
+        font-family: Helvetica;
+        text-decoration: none;
+        padding-top: 50px;
+      }
+      .mailchimp a {
+        color: #fff;
+      }
+      .mailchimp a:hover {
+        text-decoration: underline;
+      }
 
       /*
       Animate.css - http://daneden.me/animate
