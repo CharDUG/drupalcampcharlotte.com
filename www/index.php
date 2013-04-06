@@ -20,7 +20,10 @@
       .logo { margin: 75px 0 20px 0; }
       .mailchimp {
         font-family: Helvetica;
-        padding-top: 50px;
+        padding-top: 30px;
+      }
+      .mailchimp h2{
+	      color:#fff;
       }
       .mailchimp a {
         color: #fff;
@@ -204,17 +207,95 @@
         -o-animation-name: bounceInLeft;
         animation-name: bounceInLeft;
       }
+      
+      /* Form styles
+      ---------------------------*/
+      .req{color:red;}
+      .mailchimp form label, .mailchimp form input {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		font-size:1em;
+	  }
+
+      .mailchimp form{
+      	font-size: 76%;
+		padding: 20px;
+		width: 450px;
+		margin: 0 auto;
+      }
+      .mailchimp form div{
+	      overflow: hidden;
+      }
+      .mailchimp form label {
+		font-weight: bold;
+		background: -webkit-linear-gradient(#f1f1f1, #e2e2e2);
+		background: linear-gradient(#f1f1f1, #e2e2e2);
+		padding: 5px 10px;
+		color: #444;
+		
+		border: 1px solid #d4d4d4;
+		border-bottom-left-radius: 5px;
+		border-top-left-radius: 5px;
+		
+		line-height: 1.5em;
+		width: 20%;
+		
+		/* takes the width properly now and also the
+		spacing between the label and input field got removed. */
+		float: left;
+		
+		text-align: center;
+		cursor: pointer;
+	  }
+	  .mailchimp form input[type='email']{
+		width:60%;
+		float:left;
+		padding:5px;
+		border: 1px solid #d4d4d4;
+		margin:0;
+		-webkit-box-shadow:inset 0 2px 2px #ececec;
+	-moz-box-shadow:inset 0 2px 2px #ececec;
+	-ms-box-shadow:inset 0 2px 2px #ececec;
+	box-shadow:inset 0 2px 2px #ececec;
+		line-height: 1.5em;
+	  }
+	  .mailchimp form input[type='submit']{
+	  	margin:0;
+	  	line-height: 1.5em;
+	  	color: #444;
+	  	font-weight: bold;
+		width:20%;
+		background: -webkit-linear-gradient(#f1f1f1, #e2e2e2);
+		background: linear-gradient(#f1f1f1, #e2e2e2);
+		float:right;
+		padding:5px;
+		border: 1px solid #d4d4d4;
+		border-bottom-right-radius: 5px;
+		border-top-right-radius: 5px;
+	  }
     </style>
   </head>
   <body>
     <div>
       <div class="logo bounceInLeft animated"><img src="images/logo.png" alt="Home"></div>
       <div class="animated fadeInUp"><img src="images/coming-soon.png" alt="Coming Soon DrupalCamp Charlotte 2013"></div>
-      <div class="mailchimp">
-        <!-- // MAILCHIMP SUBSCRIBE CODE \\ -->
-        <a href="http://eepurl.com/t5KWb">Subscribe to be notified with DrupalCamp Charlotte 2013 news</a>
-        <!-- \\ MAILCHIMP SUBSCRIBE LINK // -->
-      </div>
+      
+      
+      <!-- Begin MailChimp Signup Form -->
+     
+	<div class="mailchimp animated fadeInUp">
+	<h2>Subscribe to be notified with DrupalCamp Charlotte 2013 news</h2>
+	<form action="http://drupalcampcharlotte.us6.list-manage1.com/subscribe/post?u=1826216c8a982e629e5128287&amp;id=e574b4e40f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<div>
+			<label for="mce-EMAIL">Email<span class="req">*</span></label>
+			<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email address" required>
+			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+		</div>
+	</form>
+	</div>
+	
+	<!--End mc_embed_signup-->
     </div>
   </body>
 </html>
