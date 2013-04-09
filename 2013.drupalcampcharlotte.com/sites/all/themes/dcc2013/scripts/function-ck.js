@@ -1,0 +1,1 @@
+(function(e){if(e("body").hasClass("html")){var t=e("#navigation"),n=e("<div />",{"class":"filter-drop-spacer",height:t.outerHeight()});t.size()&&e(window).scroll(function(){if(!t.hasClass("fix")&&e(window).scrollTop()>t.offset().top){t.before(n);t.addClass("fix")}else if(t.hasClass("fix")&&e(window).scrollTop()<n.offset().top){t.removeClass("fix");n.remove()}})}})(jQuery);
