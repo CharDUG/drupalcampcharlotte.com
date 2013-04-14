@@ -5,6 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+    
+    <!--     Missing Google Analytics tracking code -->
     <style>
       body {
         background: none;
