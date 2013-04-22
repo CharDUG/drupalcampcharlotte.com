@@ -5,6 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+    
+    
     <style>
       body {
         background: none;
@@ -275,11 +277,23 @@
 		border-top-right-radius: 5px;
 	  }
     </style>
+    
+    <script type="text/javascript"> 
+	  var _gaq = _gaq || []; 
+	  _gaq.push(['_setAccount', 'UA-29320735-1']); 
+	  _gaq.push(['_trackPageview']); 
+	 
+	  (function() { 
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga); 
+	  })(); 
+	</script>
   </head>
   <body>
     <div>
       <div class="logo bounceInLeft animated"><img src="images/logo.png" alt="Home"></div>
-      <div class="animated fadeInUp"><img src="images/coming-soon.png" alt="Coming Soon DrupalCamp Charlotte 2013"></div>
+      <div class="animated fadeInUp"><img src="images/coming-soon-summer.png" alt="Coming Soon DrupalCamp Charlotte 2013"></div>
       
       
       <!-- Begin MailChimp Signup Form -->
