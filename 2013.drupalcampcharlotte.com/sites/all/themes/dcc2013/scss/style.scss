@@ -1,0 +1,277 @@
+/* Comment */
+
+/* Colors */
+$tan: rgba(242, 223, 196, 1);
+$light-tan: rgba(246,246,246,1);
+$orange: rgba(229, 143, 30, 1);
+$blue: rgba(54, 101, 125, 1);
+$light-blue: lighten($blue, 50%);
+$dark-gray: rgba(40, 56, 64, 1);
+
+/* Mixins */
+@mixin header-font ($x: 0.05em, $y: 0.05em, $blur: 0.05em, $alpha: 0.75) {
+  color: $tan;
+  font-family: Sanchez, serif;
+  @include text-shadow($x, $y, $blur, $alpha);
+}
+
+@mixin headings () {
+  border-bottom: 1px dashed $blue;
+  color: $dark-gray;
+  font-family: Sanchez, serif;
+  line-height: 1.2em;
+}
+
+@mixin body-font () {
+  color: dark-gray;
+  font-family: Lato, sans-serif;
+  line-height: 1.2em;
+}
+
+@mixin text-shadow ($x: 0.05em, $y: 0.05em, $blur: 0.05em, $alpha: 0.75) {
+  text-shadow: $x $y $blur rgba(0, 0, 0, $alpha);
+}
+
+@mixin gradient-overlay () {
+/*background-color: #000000;*/
+  background-image: -webkit-gradient(linear, left center, right center, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.00)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.00));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.00));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.00));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.00));
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.00));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#000000', EndColorStr='#000000');
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 0.85em;
+}
+
+h1,
+h2,
+h3, {
+  @include headings();
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+/* Body styling */
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+}
+
+body {
+  background-color: $light-tan;
+}
+
+#header {
+  height: 745px;
+  position: relative;
+  width: 100%;
+  .header-top-bg {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+  section{
+    margin: 0 auto;
+    max-width: 1300px;
+    position: relative;
+    width: 100%;
+  }
+  .city-bg {
+    bottom: 0;
+    min-width: 1300px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  .honeycomb {
+    left: 50%;
+    margin-left: -650px;
+    position: absolute;
+    min-width: 1300px;
+    width: 100%;
+    z-index: 1;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear; /* Safari */
+  }
+  .header-dates {
+    @include header-font();
+    font-size: 2.5em;
+    left: 60%;
+    margin-left: -650px;
+    position: relative;
+    min-width: 1300px;
+    width: 100%;
+    text-align: center;
+    top: 475px;
+    z-index: 3;
+  }
+  .logo-wrap {
+    max-width: 1300px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+}
+
+#logo{
+  display: block;
+  margin: 0 auto;
+  max-width: 665px;
+  width: 100%;
+}
+
+/* Main navigation in the header region */
+#header-navigation {
+  text-align: center;
+  li {
+    border-bottom: 1px solid $tan;
+    border-top: 1px solid $tan;
+    display: inline;
+    list-style-type: none;
+    margin: 0 -2px;
+    padding: 10px 35px 10px 0;
+    position: relative;
+    top: 575px;
+    &:nth-child(3) {
+      padding-right: 0;
+    }
+    &:nth-child(4) {
+      a {
+        @include header-font(-0.05em, -0.05em, 0.05em, 0.75);
+      }
+      background: url(../img/register-button-bg.png);
+      border-bottom: none;
+      border-top: none;
+      display: inline-block;
+      font-size: 1.45em;
+      height: 62px;
+      line-height: 1.75em;
+      margin: 0 30px;
+      padding-right: 0;
+      width: 291px;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+    .active {
+      color: $orange;
+    }
+    a {
+      @include header-font();
+      font-size: 1.2em;
+      text-decoration: none;
+    }
+  }
+}
+
+#main {
+  height: 135px;
+  .second-main-nav {
+    width: 1000px;
+    margin: 0 auto;
+    .small-logo {
+      position: relative;
+      left: -100px;
+      display: inline;
+      z-index: 4;
+    }
+  }
+}
+
+/* Main navigation for the body region */
+#navigation {
+  background-color: $blue;
+  background: url(../img/little-knobs.png);
+  height: 72px;
+  position: relative;
+  text-align: right;
+  top: -138px;
+  ul {
+    max-width: 1000px;
+    margin: 0 auto;
+    li {
+      display: inline;
+      font-family: Sanchez, serif;
+      line-height: 4.9em;
+      list-style-type: none;
+      padding-right: 20px;
+      .active {
+        color: $tan;
+        text-shadow: -1px -1px -2px rgba(0, 0, 0, 0.3);
+      }
+      a {
+        color: black;
+        font-size: 1.2em;
+        text-decoration: none;
+        text-shadow: 1px 1px -4px rgba($light-blue, 0.3);
+      }
+    }
+  }
+  .section {
+    @include gradient-overlay();
+    height: 72px;
+  }
+}
+
+/* Styling for the body content */
+#content {
+  .section {
+    margin: 0 auto;
+    max-width: 1000px;
+    @include body-font();
+    * {
+      max-width: 650px;
+    }
+  }
+}
+
+/* Media queries */
+@media only screen and (min-width: 1300px) {
+  header .city-bg {
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    min-width: 1300px;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  header {
+    .honeycomb {
+      left: 50%;
+      margin-left: -650px;
+      position: absolute;
+      min-width: 1300px;
+      top: -165px;
+      width: 100%;
+      z-index: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #header-navigation {
+    display: none;
+  }
+}
