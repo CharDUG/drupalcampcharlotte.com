@@ -128,43 +128,52 @@ body {
       font-size: 1.2em;
       text-decoration: none; }
 
-#main {
-  height: 135px; }
-  #main .second-main-nav {
-    width: 1000px;
-    margin: 0 auto; }
-    #main .second-main-nav .small-logo {
-      position: relative;
+/* Main navigation for the body region */
+.second-main-nav {
+  height: 135px;
+  margin: 0 auto;
+  position: fixed;
+  top: -135px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+  z-index: 999; }
+  .second-main-nav .small-logo-wrapper {
+    margin: 0 auto;
+    width: 1000px; }
+    .second-main-nav .small-logo-wrapper .small-logo {
       left: -100px;
+      position: relative;
       display: inline;
       z-index: 4; }
 
-/* Main navigation for the body region */
-#navigation {
-  background-color: #36657d;
+#body-navigation {
   background: url(../img/little-knobs.png);
+  background-color: #36657d;
   height: 72px;
   position: relative;
   text-align: right;
   top: -138px; }
-  #navigation ul {
+  #body-navigation ul {
     max-width: 1000px;
     margin: 0 auto; }
-    #navigation ul li {
+    #body-navigation ul li {
       display: inline;
       font-family: Sanchez, serif;
       line-height: 4.9em;
       list-style-type: none;
       padding-right: 20px; }
-      #navigation ul li .active {
+      #body-navigation ul li .active {
         color: #f2dfc4;
         text-shadow: -1px -1px -2px rgba(0, 0, 0, 0.3); }
-      #navigation ul li a {
+      #body-navigation ul li a {
         color: black;
         font-size: 1.2em;
         text-decoration: none;
         text-shadow: 1px 1px -4px rgba(202, 222, 232, 0.3); }
-  #navigation .section {
+  #body-navigation .section {
     /*background-color: #000000;*/
     background-image: -webkit-gradient(linear, left center, right center, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0)));
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
