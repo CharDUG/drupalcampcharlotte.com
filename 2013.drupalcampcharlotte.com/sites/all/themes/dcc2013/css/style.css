@@ -173,6 +173,9 @@ body {
         font-size: 1.2em;
         text-decoration: none;
         text-shadow: 1px 1px -4px rgba(202, 222, 232, 0.3); }
+      #body-navigation ul li:nth-child(1), #body-navigation ul li:nth-child(2), #body-navigation ul li:nth-child(3) {
+        left: 125px;
+        position: relative; }
       #body-navigation ul li:nth-child(4) {
         background: url(../img/register-button-sm-bg.png);
         display: inline-block;
@@ -186,8 +189,8 @@ body {
           position: relative;
           top: -10px; }
       #body-navigation ul li:nth-child(5), #body-navigation ul li:nth-child(6), #body-navigation ul li:nth-child(7) {
-        position: relative;
-        left: -230px; }
+        left: -100px;
+        position: relative; }
   #body-navigation .section {
     /*background-color: #000000;*/
     background-image: -webkit-gradient(linear, left center, right center, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0)));
