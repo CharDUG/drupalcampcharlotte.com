@@ -11,7 +11,8 @@ regions[header] = Header
 regions[content] = Content
 regions[footer] = Footer
 
-scripts[] = scripts/function.js
+scripts[] = scripts/bootstrap.scrollspy.js
+scripts[] = scripts/init.js
 
 stylesheets[all][] = css/reset.css
 stylesheets[all][] = css/layout.css

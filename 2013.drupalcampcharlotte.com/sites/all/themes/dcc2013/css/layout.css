@@ -44,7 +44,7 @@ hr,
 .with-navigation #content,
 .with-navigation #sidebar-first,
 .with-navigation #sidebar-second {
-  margin-top: 3em;       /* NAV height */
+  margin-top: 5em;       /* NAV height */
 }
 #navigation {
   height: 3em;           /* NAV height */

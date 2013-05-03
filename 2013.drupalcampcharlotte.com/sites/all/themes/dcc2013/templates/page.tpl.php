@@ -109,10 +109,11 @@
 
     <?php if ($main_menu): ?>
       <div class="second-main-nav">
+        <div class="small-logo-wrapper">
         <img src="/sites/all/themes/dcc2013/img/logo-small.png" class="small-logo" /></div>
-        <nav id="navigation" role="navigation"><div class="section">
+        <nav id="body-navigation" role="navigation"><div class="section">
           <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'clearfix')), 'heading' => array('text' => t('Main menu'), 'level' => 'h2', 'class' => array('element-invisible'))));  ?>
-        </div></nav></div> <!-- /.section, /#navigation, /.second-main-nav -->
+        </div></nav></div> <!-- /.section, /#body-navigation, /.second-main-nav -->
     <?php endif; ?>
 
     <div id="content" class="column" role="main"><div class="section">

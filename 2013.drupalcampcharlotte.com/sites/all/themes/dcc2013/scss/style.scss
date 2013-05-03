@@ -183,24 +183,33 @@ body {
   }
 }
 
-#main {
+/* Main navigation for the body region */
+.second-main-nav {
   height: 135px;
-  .second-main-nav {
-    width: 1000px;
+  margin: 0 auto;
+  position: fixed;
+  top: -135px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  width: 100%;
+  z-index: 999;
+  .small-logo-wrapper {
     margin: 0 auto;
+    width: 1000px;
     .small-logo {
-      position: relative;
       left: -100px;
+      position: relative;
       display: inline;
       z-index: 4;
     }
   }
 }
 
-/* Main navigation for the body region */
-#navigation {
-  background-color: $blue;
+#body-navigation {
   background: url(../img/little-knobs.png);
+  background-color: $blue;
   height: 72px;
   position: relative;
   text-align: right;
