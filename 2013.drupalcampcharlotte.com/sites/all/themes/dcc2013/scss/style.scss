@@ -79,6 +79,10 @@ body {
 
 #header {
   height: 745px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
   position: relative;
   width: 100%;
   .header-top-bg {
@@ -122,6 +126,10 @@ body {
     width: 100%;
     text-align: center;
     top: 475px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     z-index: 3;
   }
   .logo-wrap {
@@ -292,6 +300,14 @@ body {
 }
 
 @media only screen and (max-width: 666px) {
+  #header {
+    height: 360px;
+    .header-dates {
+      font-size: 1.75em;
+      top: 300px;
+    }
+  }
+
   header {
     .honeycomb {
       left: 50%;
@@ -303,10 +319,26 @@ body {
       z-index: 1;
     }
   }
+
+  #header-navigation {
+    display: none;
+  }
+
+  #body-navigation {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
+  #header {
+    max-height: 600px;
+  }
+
   #header-navigation {
+    display: none;
+  }
+
+  .second-main-nav {
     display: none;
   }
 }
