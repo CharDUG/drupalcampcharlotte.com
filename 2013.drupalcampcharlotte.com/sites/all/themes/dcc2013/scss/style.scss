@@ -233,6 +233,27 @@ body {
         text-decoration: none;
         text-shadow: 1px 1px -4px rgba($light-blue, 0.3);
       }
+      &:nth-child(4) {
+        background: url(../img/register-button-sm-bg.png);
+        display: inline-block;
+        height: 62px;
+        left: 200px;
+        position: relative;
+        top: 72px;
+        width: 224px;
+        a {
+          left: -50px;
+          position: relative;
+          top: -10px;
+
+        }
+      }
+      &:nth-child(5),
+      &:nth-child(6),
+      &:nth-child(7) {
+        position: relative;
+        left: -230px;
+      }
     }
   }
   .section {
