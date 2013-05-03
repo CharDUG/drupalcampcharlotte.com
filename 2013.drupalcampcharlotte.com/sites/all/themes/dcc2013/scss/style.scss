@@ -118,12 +118,11 @@ body {
   }
   .header-dates {
     @include header-font();
+    display: block;
     font-size: 2.5em;
-    left: 60%;
+    left: 40%;
     margin-left: -650px;
     position: relative;
-    min-width: 1300px;
-    width: 100%;
     text-align: center;
     top: 475px;
     -webkit-transition: all .3s ease-in-out;
@@ -149,20 +148,19 @@ body {
 
 /* Main navigation in the header region */
 #header-navigation {
+  display: block;
   text-align: center;
   li {
     border-bottom: 1px solid $tan;
     border-top: 1px solid $tan;
     display: inline;
+    left: -200px;
     list-style-type: none;
     margin: 0 -2px;
-    padding: 10px 35px 10px 0;
+    padding: 10px 0px 10px 0;
     position: relative;
     top: 575px;
-    &:nth-child(3) {
-      padding-right: 0;
-    }
-    &:nth-child(4) {
+    &:first-child {
       a {
         @include header-font(-0.05em, -0.05em, 0.05em, 0.75);
       }
@@ -172,13 +170,18 @@ body {
       display: inline-block;
       font-size: 1.45em;
       height: 62px;
+      left: 240px;
       line-height: 1.75em;
       margin: 0 30px;
       padding-right: 0;
+      position: relative;
       width: 291px;
     }
-    &:last-child {
-      padding-right: 0;
+    &:nth-child(2) {
+      margin: 0 350px 0 0;
+    }
+    &:nth-child(3) {
+      padding: 10px 35px 10px 0;
     }
     .active {
       color: $orange;
@@ -241,32 +244,6 @@ body {
         text-decoration: none;
         text-shadow: 1px 1px -4px rgba($light-blue, 0.3);
       }
-      &:nth-child(1),
-      &:nth-child(2),
-      &:nth-child(3) {
-        left: 125px;
-        position: relative;
-      }
-      &:nth-child(4) {
-        background: url(../img/register-button-sm-bg.png);
-        display: inline-block;
-        height: 62px;
-        left: 200px;
-        position: relative;
-        top: 72px;
-        width: 224px;
-        a {
-          left: -50px;
-          position: relative;
-          top: -10px;
-        }
-      }
-      &:nth-child(5),
-      &:nth-child(6),
-      &:nth-child(7) {
-        left: -100px;
-        position: relative;
-      }
     }
   }
   .section {
@@ -287,6 +264,12 @@ body {
   }
 }
 
+.block-views {
+  h2 {
+    font-size: 1.75em;
+  }
+}
+
 /* Media queries */
 @media only screen and (min-width: 1300px) {
   header .city-bg {
@@ -299,11 +282,12 @@ body {
   }
 }
 
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 674px) {
   #header {
     height: 360px;
     .header-dates {
       font-size: 1.75em;
+      left: 100%;
       top: 300px;
     }
   }

@@ -71,12 +71,11 @@ body {
     color: #f2dfc4;
     font-family: Sanchez, serif;
     text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.75);
+    display: block;
     font-size: 2.5em;
-    left: 60%;
+    left: 40%;
     margin-left: -650px;
     position: relative;
-    min-width: 1300px;
-    width: 100%;
     text-align: center;
     top: 475px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -98,35 +97,39 @@ body {
 
 /* Main navigation in the header region */
 #header-navigation {
+  display: block;
   text-align: center; }
   #header-navigation li {
     border-bottom: 1px solid #f2dfc4;
     border-top: 1px solid #f2dfc4;
     display: inline;
+    left: -200px;
     list-style-type: none;
     margin: 0 -2px;
-    padding: 10px 35px 10px 0;
+    padding: 10px 0px 10px 0;
     position: relative;
     top: 575px; }
-    #header-navigation li:nth-child(3) {
-      padding-right: 0; }
-    #header-navigation li:nth-child(4) {
+    #header-navigation li:first-child {
       background: url(../img/register-button-bg.png);
       border-bottom: none;
       border-top: none;
       display: inline-block;
       font-size: 1.45em;
       height: 62px;
+      left: 240px;
       line-height: 1.75em;
       margin: 0 30px;
       padding-right: 0;
+      position: relative;
       width: 291px; }
-      #header-navigation li:nth-child(4) a {
+      #header-navigation li:first-child a {
         color: #f2dfc4;
         font-family: Sanchez, serif;
         text-shadow: -0.05em -0.05em 0.05em rgba(0, 0, 0, 0.75); }
-    #header-navigation li:last-child {
-      padding-right: 0; }
+    #header-navigation li:nth-child(2) {
+      margin: 0 350px 0 0; }
+    #header-navigation li:nth-child(3) {
+      padding: 10px 35px 10px 0; }
     #header-navigation li .active {
       color: #e58f1e; }
     #header-navigation li a {
@@ -181,24 +184,6 @@ body {
         font-size: 1.2em;
         text-decoration: none;
         text-shadow: 1px 1px -4px rgba(202, 222, 232, 0.3); }
-      #body-navigation ul li:nth-child(1), #body-navigation ul li:nth-child(2), #body-navigation ul li:nth-child(3) {
-        left: 125px;
-        position: relative; }
-      #body-navigation ul li:nth-child(4) {
-        background: url(../img/register-button-sm-bg.png);
-        display: inline-block;
-        height: 62px;
-        left: 200px;
-        position: relative;
-        top: 72px;
-        width: 224px; }
-        #body-navigation ul li:nth-child(4) a {
-          left: -50px;
-          position: relative;
-          top: -10px; }
-      #body-navigation ul li:nth-child(5), #body-navigation ul li:nth-child(6), #body-navigation ul li:nth-child(7) {
-        left: -100px;
-        position: relative; }
   #body-navigation .section {
     /*background-color: #000000;*/
     background-image: -webkit-gradient(linear, left center, right center, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0)));
@@ -220,6 +205,9 @@ body {
   #content .section * {
     max-width: 650px; }
 
+.block-views h2 {
+  font-size: 1.75em; }
+
 /* Media queries */
 @media only screen and (min-width: 1300px) {
   header .city-bg {
@@ -229,11 +217,12 @@ body {
     min-width: 1300px;
     position: absolute;
     width: 100%; } }
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 674px) {
   #header {
     height: 360px; }
     #header .header-dates {
       font-size: 1.75em;
+      left: 100%;
       top: 300px; }
 
   header .honeycomb {
