@@ -118,9 +118,9 @@ body {
   }
   .header-dates {
     @include header-font();
-    display: block;
+    display: inline-block;
     font-size: 2.5em;
-    left: 40%;
+    left: 105%;
     margin-left: -650px;
     position: relative;
     text-align: center;
@@ -156,7 +156,6 @@ body {
     display: inline;
     left: -200px;
     list-style-type: none;
-    margin: 0 -2px;
     padding: 10px 0px 10px 0;
     position: relative;
     top: 575px;
@@ -170,7 +169,7 @@ body {
       display: inline-block;
       font-size: 1.45em;
       height: 62px;
-      left: 240px;
+      left: 360px;
       line-height: 1.75em;
       margin: 0 30px;
       padding-right: 0;
@@ -178,10 +177,10 @@ body {
       width: 291px;
     }
     &:nth-child(2) {
-      margin: 0 350px 0 0;
+      padding: 10px 35px 10px 0;
     }
     &:nth-child(3) {
-      padding: 10px 35px 10px 0;
+      margin: 0 350px 0 -4px;
     }
     .active {
       color: $orange;
@@ -280,16 +279,36 @@ body {
     position: absolute;
     width: 100%;
   }
+
+}
+
+@media only screen and (max-width: 400px) {
+  #header {
+    height: 400px;
+    .header-dates {
+      top: 300px;
+      left: 175%;
+    }
+  }
+}
+
+@media only screen and (max-width: 674px) and (min-width: 401px) {
+  #header {
+    height: 550px;
+    .header-dates {
+      top: 475px;
+      left: 150%;
+    }
+  }
 }
 
 @media only screen and (max-width: 674px) {
-  #header {
-    height: 360px;
-    .header-dates {
-      font-size: 1.75em;
-      left: 100%;
-      top: 300px;
-    }
+  #main-wrapper {
+    padding: 1em 1em 1em 1em;
+  }
+
+  .header-dates {
+    font-size: 1.75em;
   }
 
   header {
