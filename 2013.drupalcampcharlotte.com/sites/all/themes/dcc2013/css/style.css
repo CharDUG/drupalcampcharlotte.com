@@ -67,17 +67,25 @@ body {
     transition: all 0.5s linear;
     -webkit-transition: all 0.5s linear;
     /* Safari */ }
+  #header .sub-heading,
   #header .header-dates {
     color: #f2dfc4;
     font-family: Sanchez, serif;
     text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.75);
-    display: inline-block;
-    font-size: 2.5em;
-    left: 105%;
     margin-left: -650px;
+    min-width: 1300px;
     position: relative;
+    width: 100%; }
+  #header .sub-heading {
+    font-size: 3.5em;
+    left: 50%;
     text-align: center;
-    top: 475px;
+    top: 470px; }
+  #header .header-dates {
+    font-size: 1.2em;
+    left: 65%;
+    text-align: center;
+    top: 480px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -107,7 +115,7 @@ body {
     list-style-type: none;
     padding: 10px 0px 10px 0;
     position: relative;
-    top: 575px; }
+    top: 540px; }
     #header-navigation li:first-child {
       background: url(../img/register-button-bg.png);
       border-bottom: none;
@@ -128,7 +136,11 @@ body {
     #header-navigation li:nth-child(2) {
       padding: 10px 35px 10px 0; }
     #header-navigation li:nth-child(3) {
-      margin: 0 350px 0 -4px; }
+      margin: 0 390px 0 -4px; }
+    #header-navigation li:nth-child(4) {
+      padding: 10px 35px 10px 0; }
+    #header-navigation li:nth-child(5) {
+      margin: 0 0 0 -4px; }
     #header-navigation li .active {
       color: #e58f1e; }
     #header-navigation li a {

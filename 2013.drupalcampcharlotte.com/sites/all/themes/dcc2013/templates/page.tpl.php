@@ -86,7 +86,9 @@
 
     <img src="/sites/all/themes/dcc2013/img/honeycomb-bg.png" alt="" class="honeycomb" />
 
-    <p class="header-dates">July 27th, 2013</p>
+    <div class="sub-heading">the infosec drupalcamp</div>
+
+    <div class="header-dates">July 27th, 2013</div>
 
     <?php if ($main_menu): ?>
       <nav id="header-navigation" role="navigation"><div class="section">
