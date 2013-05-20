@@ -306,9 +306,13 @@ body {
 @media only screen and (max-width: 400px) {
   #header {
     height: 400px;
+    .sub-heading {
+      top: 280px;
+      font-size: 1.75em;
+    }
     .header-dates {
-      top: 300px;
-      left: 175%;
+      top: 290px;
+      font-size: 1.1em;
     }
   }
 }
@@ -318,7 +322,6 @@ body {
     height: 550px;
     .header-dates {
       top: 475px;
-      left: 150%;
     }
   }
 }
