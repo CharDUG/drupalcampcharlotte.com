@@ -9,6 +9,7 @@ fonts[google_fonts_api][] = "Sanchez&subset=latin#regular"
 
 regions[header] = Header
 regions[content] = Content
+regions[sidebar_second] = Sidebar second
 regions[footer] = Footer
 
 scripts[] = scripts/bootstrap.scrollspy.js

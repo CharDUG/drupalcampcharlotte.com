@@ -35,6 +35,10 @@ hr,
   width: 100%;
   margin: 0 auto;
 }
+#main {
+  width: 960px;
+  margin: 0 auto;
+}
 #content,
 #navigation,
 #sidebar-first,
@@ -62,11 +66,11 @@ hr,
   padding-left: 200px;   /* LC width */
 }
 .sidebar-second #content .section {
-  padding-right: 240px;  /* RC width */
+  padding-right: 160px;  /* RC width */
 }
 .two-sidebars #content .section {
   padding-left: 200px;   /* LC width */
-  padding-right: 240px;  /* RC width */
+  padding-right: 160px;  /* RC width */
 }
 #sidebar-first {
   width: 200px;          /* LC width */
@@ -74,8 +78,8 @@ hr,
 }
 #sidebar-second {
   float: right;
-  width: 240px;          /* RC width */
-  margin-left: -240px;   /* RC width */
+  width: 160px;          /* RC width */
+  margin-left: -160px;   /* RC width */
 }
 #footer {
   clear: both;
