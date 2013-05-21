@@ -15,14 +15,33 @@ h3 {
   color: #283840;
   font-family: Sanchez, serif;
   line-height: 1.2em; }
+  h1 a,
+  h2 a,
+  h3 a {
+    text-decoration: none;
+    color: #283840; }
 
 h1 {
   font-size: 2.5em; }
+
+article {
+  margin-bottom: 1em; }
+  article h2 {
+    border-bottom: none;
+    display: inline-block; }
+  article .submitted {
+    color: #e58f1e;
+    display: inline-block;
+    font-size: 0.75em;
+    margin: 0 0 0 1em; }
 
 /* Body styling */
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+a {
+  color: #e58f1e; }
 
 img {
   height: auto;
@@ -33,6 +52,10 @@ body {
 
 #header {
   height: 745px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   position: relative;
   width: 100%; }
   #header .header-top-bg {
@@ -63,18 +86,29 @@ body {
     transition: all 0.5s linear;
     -webkit-transition: all 0.5s linear;
     /* Safari */ }
+  #header .sub-heading,
   #header .header-dates {
     color: #f2dfc4;
     font-family: Sanchez, serif;
     text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.75);
-    font-size: 2.5em;
-    left: 60%;
     margin-left: -650px;
-    position: relative;
     min-width: 1300px;
-    width: 100%;
+    position: relative;
+    width: 100%; }
+  #header .sub-heading {
+    font-size: 3.5em;
+    left: 50%;
     text-align: center;
-    top: 475px;
+    top: 470px; }
+  #header .header-dates {
+    font-size: 1.2em;
+    left: 65%;
+    text-align: center;
+    top: 480px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     z-index: 3; }
   #header .logo-wrap {
     max-width: 1300px;
@@ -90,35 +124,42 @@ body {
 
 /* Main navigation in the header region */
 #header-navigation {
+  display: block;
   text-align: center; }
   #header-navigation li {
     border-bottom: 1px solid #f2dfc4;
     border-top: 1px solid #f2dfc4;
     display: inline;
+    left: -200px;
     list-style-type: none;
-    margin: 0 -2px;
-    padding: 10px 35px 10px 0;
+    padding: 10px 0px 10px 0;
     position: relative;
-    top: 575px; }
-    #header-navigation li:nth-child(3) {
-      padding-right: 0; }
-    #header-navigation li:nth-child(4) {
+    top: 540px; }
+    #header-navigation li:first-child {
       background: url(../img/register-button-bg.png);
       border-bottom: none;
       border-top: none;
       display: inline-block;
       font-size: 1.45em;
       height: 62px;
+      left: 360px;
       line-height: 1.75em;
       margin: 0 30px;
       padding-right: 0;
+      position: relative;
       width: 291px; }
-      #header-navigation li:nth-child(4) a {
+      #header-navigation li:first-child a {
         color: #f2dfc4;
         font-family: Sanchez, serif;
         text-shadow: -0.05em -0.05em 0.05em rgba(0, 0, 0, 0.75); }
-    #header-navigation li:last-child {
-      padding-right: 0; }
+    #header-navigation li:nth-child(2) {
+      padding: 10px 35px 10px 0; }
+    #header-navigation li:nth-child(3) {
+      margin: 0 390px 0 -4px; }
+    #header-navigation li:nth-child(4) {
+      padding: 10px 35px 10px 0; }
+    #header-navigation li:nth-child(5) {
+      margin: 0 0 0 -4px; }
     #header-navigation li .active {
       color: #e58f1e; }
     #header-navigation li a {
@@ -194,6 +235,9 @@ body {
   #content .section * {
     max-width: 650px; }
 
+.block-views h2 {
+  font-size: 1.75em; }
+
 /* Media queries */
 @media only screen and (min-width: 1300px) {
   header .city-bg {
@@ -203,7 +247,27 @@ body {
     min-width: 1300px;
     position: absolute;
     width: 100%; } }
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 400px) {
+  #header {
+    height: 400px; }
+    #header .sub-heading {
+      top: 280px;
+      font-size: 1.75em; }
+    #header .header-dates {
+      top: 290px;
+      font-size: 1.1em; } }
+@media only screen and (max-width: 674px) and (min-width: 401px) {
+  #header {
+    height: 550px; }
+    #header .header-dates {
+      top: 475px; } }
+@media only screen and (max-width: 674px) {
+  #main-wrapper {
+    padding: 1em 1em 1em 1em; }
+
+  .header-dates {
+    font-size: 1.75em; }
+
   header .honeycomb {
     left: 50%;
     margin-left: -650px;
@@ -211,7 +275,19 @@ body {
     min-width: 1300px;
     top: -165px;
     width: 100%;
-    z-index: 1; } }
-@media only screen and (max-width: 1100px) {
+    z-index: 1; }
+
   #header-navigation {
+    display: none; }
+
+  #body-navigation {
+    display: none; } }
+@media only screen and (max-width: 1100px) {
+  #header {
+    max-height: 600px; }
+
+  #header-navigation {
+    display: none; }
+
+  .second-main-nav {
     display: none; } }
