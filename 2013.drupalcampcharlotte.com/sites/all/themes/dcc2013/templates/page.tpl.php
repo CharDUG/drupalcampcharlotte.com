@@ -107,16 +107,16 @@
     <?php print render($page['banner']); ?>
   </div></div>
 
-  <div id="main-wrapper"><div id="main" class="clearfix<?php if ($main_menu) { print ' with-navigation'; } ?>">
+  <?php if ($main_menu): ?>
+    <div class="second-main-nav">
+      <div class="small-logo-wrapper">
+      <img src="/sites/all/themes/dcc2013/img/logo-small.png" class="small-logo" /></div>
+      <nav id="body-navigation" role="navigation"><div class="section">
+        <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'clearfix')), 'heading' => array('text' => t('Main menu'), 'level' => 'h2', 'class' => array('element-invisible'))));  ?>
+      </div></nav></div> <!-- /.section, /#body-navigation, /.second-main-nav -->
+  <?php endif; ?>
 
-    <?php if ($main_menu): ?>
-      <div class="second-main-nav">
-        <div class="small-logo-wrapper">
-        <img src="/sites/all/themes/dcc2013/img/logo-small.png" class="small-logo" /></div>
-        <nav id="body-navigation" role="navigation"><div class="section">
-          <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'clearfix')), 'heading' => array('text' => t('Main menu'), 'level' => 'h2', 'class' => array('element-invisible'))));  ?>
-        </div></nav></div> <!-- /.section, /#body-navigation, /.second-main-nav -->
-    <?php endif; ?>
+  <div id="main-wrapper"><div id="main" class="clearfix<?php if ($main_menu) { print ' with-navigation'; } ?>">
 
     <div id="content" class="column" role="main"><div class="section">
       <?php print render($title_prefix); ?>
@@ -134,6 +134,12 @@
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </div></div> <!-- /.section, /#content -->
+
+    <?php if ($page['sidebar_second']): ?>
+      <aside id="sidebar-second" class="column sidebar" role="complementary"><div class="section">
+        <?php print render($page['sidebar_second']); ?>
+      </div></aside> <!-- /.section, /#sidebar-second -->
+    <?php endif; ?>
 
   </div></div> <!-- /#main, /#main-wrapper -->
   <footer id="footer" role="contentinfo"><div class="section">
