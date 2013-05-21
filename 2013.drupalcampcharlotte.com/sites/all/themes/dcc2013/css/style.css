@@ -15,14 +15,33 @@ h3 {
   color: #283840;
   font-family: Sanchez, serif;
   line-height: 1.2em; }
+  h1 a,
+  h2 a,
+  h3 a {
+    text-decoration: none;
+    color: #283840; }
 
 h1 {
   font-size: 2.5em; }
+
+article {
+  margin-bottom: 1em; }
+  article h2 {
+    border-bottom: none;
+    display: inline-block; }
+  article .submitted {
+    color: #e58f1e;
+    display: inline-block;
+    font-size: 0.75em;
+    margin: 0 0 0 1em; }
 
 /* Body styling */
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+a {
+  color: #e58f1e; }
 
 img {
   height: auto;

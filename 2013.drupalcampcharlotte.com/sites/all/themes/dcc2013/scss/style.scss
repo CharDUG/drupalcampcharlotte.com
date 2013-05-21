@@ -55,17 +55,39 @@ h1,
 h2,
 h3, {
   @include headings();
+  a {
+    text-decoration: none;
+    color: $dark-gray;
+  }
 }
 
 h1 {
   font-size: 2.5em;
 }
 
+article {
+    margin-bottom: 1em;
+    h2 {
+      border-bottom: none;
+      display: inline-block;
+    }
+    .submitted {
+      color: $orange;
+      display: inline-block;
+      font-size: 0.75em;
+      margin: 0 0 0 1em;
+    }
+  }
+
 /* Body styling */
 
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+a {
+  color: $orange;
 }
 
 img{
