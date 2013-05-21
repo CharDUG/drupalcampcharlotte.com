@@ -78,8 +78,8 @@ hr,
 }
 #sidebar-second {
   float: right;
-  width: 160px;          /* RC width */
-  margin-left: -160px;   /* RC width */
+  width: 250px;          /* RC width */
+  margin-left: -250px;   /* RC width */
 }
 #footer {
   clear: both;
