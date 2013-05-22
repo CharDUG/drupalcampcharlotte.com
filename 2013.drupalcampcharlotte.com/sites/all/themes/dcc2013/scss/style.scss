@@ -312,6 +312,24 @@ body {
   }
 }
 
+/* Styling for the footer area */
+#footer {
+  background-color: #00394d;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 57, 77)), to(rgb(0, 14, 19)));
+  background-image: -webkit-linear-gradient(top, rgb(0, 57, 77), rgb(0, 14, 19));
+  background-image: -moz-linear-gradient(top, rgb(0, 57, 77), rgb(0, 14, 19));
+  background-image: -o-linear-gradient(top, rgb(0, 57, 77), rgb(0, 14, 19));
+  background-image: -ms-linear-gradient(top, rgb(0, 57, 77), rgb(0, 14, 19));
+  background-image: linear-gradient(top, rgb(0, 57, 77), rgb(0, 14, 19));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#00394d', EndColorStr='#000e13');
+  height: 200px;
+  margin-top: 3em;
+  .section {
+    margin: 0 auto;
+    width: 960px;
+  }
+}
+
 /* Media queries */
 @media only screen and (min-width: 1300px) {
   header .city-bg {
