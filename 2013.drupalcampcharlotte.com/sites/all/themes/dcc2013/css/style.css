@@ -238,6 +238,22 @@ body {
 .block-views h2 {
   font-size: 1.75em; }
 
+/* Styling for the footer area */
+#footer {
+  background-color: #00394d;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00394d), to(#000e13));
+  background-image: -webkit-linear-gradient(top, #00394d, #000e13);
+  background-image: -moz-linear-gradient(top, #00394d, #000e13);
+  background-image: -o-linear-gradient(top, #00394d, #000e13);
+  background-image: -ms-linear-gradient(top, #00394d, #000e13);
+  background-image: linear-gradient(top, #00394d, #000e13);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#00394d', EndColorStr='#000e13');
+  height: 200px;
+  margin-top: 3em; }
+  #footer .section {
+    margin: 0 auto;
+    width: 960px; }
+
 /* Media queries */
 @media only screen and (min-width: 1300px) {
   header .city-bg {
