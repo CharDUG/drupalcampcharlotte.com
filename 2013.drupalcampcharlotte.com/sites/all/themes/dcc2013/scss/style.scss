@@ -230,6 +230,13 @@ body {
   }
 }
 
+div.messages {
+  margin: 3em auto 0 auto;
+  max-width: 960px;
+  width: 95%;
+  @include body-font();
+}
+
 /* Main navigation for the body region */
 .second-main-nav {
   height: 135px;
