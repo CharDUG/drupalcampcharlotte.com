@@ -91,19 +91,18 @@ body {
     color: #f2dfc4;
     font-family: Sanchez, serif;
     text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.75);
+    left: 50%;
     margin-left: -650px;
     min-width: 1300px;
     position: relative;
+    text-align: center;
     width: 100%; }
   #header .sub-heading {
     font-size: 3.5em;
-    left: 50%;
-    text-align: center;
     top: 470px; }
   #header .header-dates {
     font-size: 1.2em;
-    left: 65%;
-    text-align: center;
+    padding: 0 0 0 35%;
     top: 480px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -168,6 +167,14 @@ body {
       text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.75);
       font-size: 1.2em;
       text-decoration: none; }
+
+div.messages {
+  margin: 3em auto 0 auto;
+  max-width: 960px;
+  width: 95%;
+  color: dark-gray;
+  font-family: Lato, sans-serif;
+  line-height: 1.2em; }
 
 /* Main navigation for the body region */
 .second-main-nav {
