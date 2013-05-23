@@ -1,0 +1,14 @@
+name = UUID Path
+description = Provides export functionality for url aliases.
+core = 7.x
+package = UUID
+dependencies[] = uuid
+
+
+
+; Information added by drush on 2013-01-26
+version = "7.x-1.0-alpha3+51-dev"
+core = "7.x"
+project = "uuid"
+datestamp = "1359186375"
+
