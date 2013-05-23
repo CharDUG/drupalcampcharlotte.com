@@ -141,21 +141,20 @@ body {
   .sub-heading,
   .header-dates {
     @include header-font();
+    left: 50%;
     margin-left: -650px;
     min-width: 1300px;
     position: relative;
-    width: 100%
+    text-align: center;
+    width: 100%;
   }
   .sub-heading {
     font-size: 3.5em;
-    left: 50%;
-    text-align: center;
     top: 470px;
   }
   .header-dates {
     font-size: 1.2em;
-    left: 65%;
-    text-align: center;
+    padding: 0 0 0 35%;
     top: 480px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -229,6 +228,13 @@ body {
       text-decoration: none;
     }
   }
+}
+
+div.messages {
+  margin: 3em auto 0 auto;
+  max-width: 960px;
+  width: 95%;
+  @include body-font();
 }
 
 /* Main navigation for the body region */

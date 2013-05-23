@@ -41,6 +41,7 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = filter
 dependencies[] = flag
+dependencies[] = forum
 dependencies[] = image
 dependencies[] = jquery_update
 dependencies[] = link
@@ -82,14 +83,12 @@ dependencies[] = cod_session
 dependencies[] = cod_events
 dependencies[] = cod_community
 dependencies[] = cod_sponsors
-;dependencies[] = forum
 ;dependencies[] = cod_front_page
 ;dependencies[] = cod_news
 files[] = cod.profile
-
-; Information added by drush on 2013-03-29
-version = "7.x-1.x"
+; Information added by drupal.org packaging script on 2013-01-26
+version = "7.x-1.0-alpha2"
 core = "7.x"
 project = "cod"
-datestamp = "1364579452"
+datestamp = "1359186362"
 

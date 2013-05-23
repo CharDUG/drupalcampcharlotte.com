@@ -34,7 +34,6 @@ projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.2"
 projects[ctools][patch][] = http://drupal.org/files/ctools-dependent-js-broken-with-jquery-1.7-1494860-30.patch
-projects[ctools][patch][] = http://drupal.org/files/ctools-fix-warning-message-1739718-32.patch
 
 projects[commerce][version] = "1.4"
 projects[commerce][subdir] = contrib
@@ -104,9 +103,6 @@ projects[flag][subdir] = contrib
 projects[inline_entity_form][version] = "1.0"
 projects[inline_entity_form][subdir] = contrib
 
-projects[i18n][version] = "1.8"
-projects[i18n][subdir] = contrib
-
 projects[link][version] = "1.0"
 projects[link][subdir] = contrib
 
@@ -132,14 +128,8 @@ projects[strongarm][version] = "2.x-dev"
 projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
 
-projects[title][version] = "1.0-alpha5"
-projects[title][subdir] = contrib
-
 projects[token][version] = "1.4"
 projects[token][subdir] = contrib
-
-projects[variable][version] = "2.2"
-projects[variable][subdir] = contrib
 
 projects[views][version] = "3.5"
 projects[views][type] = "module"
@@ -192,6 +182,7 @@ projects[registration][subdir] = contrib
 projects[registration][download][type] = "git"
 projects[registration][download][url] = "http://git.drupal.org/project/registration.git"
 projects[registration][download][branch] = "7.x-1.x"
+projects[registration][patch][] = http://drupal.org/files/1899384-entity_load.patch
 
 projects[uuid][type] = "module"
 projects[uuid][subdir] = contrib
