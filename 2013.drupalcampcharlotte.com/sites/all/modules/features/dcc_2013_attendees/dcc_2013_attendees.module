@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DCC 2013 Attendees feature.
+ */
+
+include_once 'dcc_2013_attendees.features.inc';
