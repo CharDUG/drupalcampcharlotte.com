@@ -417,12 +417,15 @@ div.messages {
 }
 
 /* ATTENDEES VIEW */
+
+$user-picture-width: 239px;
+
 .view-dcc-2013-attendees .views-row {
   float: left;
   margin: 0 20px 20px 0;
   border-bottom: 1px solid #8a4c1d;
   padding-bottom: 20px;
-  width: 239px;
+  width: $user-picture-width;
   position: relative;
   min-height: 270px;
 }
@@ -445,7 +448,7 @@ div.messages {
 .view-dcc-2013-attendees .views-field-field-profile-app-net-link,
 .view-dcc-2013-attendees .views-field-field-profile-last {
   text-align: center;
-  width: 239px;
+  width: $user-picture-width;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
