@@ -314,3 +314,56 @@ div.messages {
 
   .second-main-nav {
     display: none; } }
+/* ATTENDEES VIEW */
+.view-dcc-2013-attendees .views-row {
+  float: left;
+  margin: 0 20px 20px 0;
+  border-bottom: 1px solid #8a4c1d;
+  padding-bottom: 20px;
+  width: 239px;
+  position: relative;
+  min-height: 270px; }
+
+.view-dcc-2013-attendees .views-field-name,
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link,
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link {
+  position: absolute; }
+
+.view-dcc-2013-attendees .views-field-name {
+  top: 80px; }
+
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link {
+  top: 108px; }
+
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link {
+  top: 130px; }
+
+.view-dcc-2013-attendees .views-field-name,
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link,
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link,
+.view-dcc-2013-attendees .views-field-field-profile-last {
+  text-align: center;
+  width: 239px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 11; }
+
+.view-dcc-2013-attendees .views-field-picture .user-picture a {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  margin-bottom: 15px; }
+
+.view-dcc-2013-attendees .views-field-picture .user-picture a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.view-dcc-2013-attendees .views-field-picture .user-picture a:hover:after {
+  background: url(../img/user-picture-mask-hover.png) no-repeat; }
