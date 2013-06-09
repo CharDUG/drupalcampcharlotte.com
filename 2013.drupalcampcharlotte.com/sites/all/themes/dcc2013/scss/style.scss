@@ -423,10 +423,9 @@ div.messages {
   float: left;
   margin: 0 20px 20px 0;
   border-bottom: 1px solid #8a4c1d;
-  padding-bottom: 20px;
   width:  239px;
   position: relative;
-  min-height: 270px;
+  min-height: 250px;
 }
 .view-dcc-2013-attendees .views-field-name,
 .view-dcc-2013-attendees .views-field-field-profile-twitter-link,
@@ -434,13 +433,18 @@ div.messages {
   position: absolute;
 }
 .view-dcc-2013-attendees .views-field-name {
-  top: 73px;  
+  top: 73px;
 }
 .view-dcc-2013-attendees .views-field-field-profile-twitter-link {
   top: 108px;  
 }
 .view-dcc-2013-attendees .views-field-field-profile-app-net-link {
-  top: 130px;  
+  top: 130px;
+}
+.view-dcc-2013-attendees .views-field-name,
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link,
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link {
+  z-index: 2;
 }
 .view-dcc-2013-attendees .views-field-name,
 .view-dcc-2013-attendees .views-field-field-profile-twitter-link,
@@ -451,7 +455,6 @@ div.messages {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  z-index: 11;
   left: 42px;
   color: $dark-orange;
 }
@@ -459,20 +462,15 @@ div.messages {
   position: relative;
   float: left;
   cursor: pointer;
-  margin-bottom:15px;
-}  
-.view-dcc-2013-attendees .views-field-picture .user-picture a:after {  
-  content: "";  
-  display: block;  
-  position: absolute;
-  background: none;  
-  top: 0;
-  bottom: 0;  
-  left: 0;  
-  right: 0;   
+  margin-bottom: 6px;
 }
-.view-dcc-2013-attendees .views-field-picture .user-picture a:hover:after {    
+.view-dcc-2013-attendees .views-field-nothing { 
+  position: absolute;
+  z-index: 1;
+  width: 239px;
+  height: 209px;
   background: url(../img/user-picture-mask-hover.png) no-repeat;
+  display: none;
 }
 .view-dcc-2013-attendees .views-field-name a,
 .view-dcc-2013-attendees .views-field-field-profile-twitter-link a,
