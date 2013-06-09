@@ -168,6 +168,13 @@ function dcc_2013_attendees_views_default_views() {
   $handler->display->display_options['fields']['field_profile_app_net_link']['label'] = '';
   $handler->display->display_options['fields']['field_profile_app_net_link']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_app_net_link']['click_sort_column'] = 'url';
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = ' ';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   /* Field: User: Picture */
   $handler->display->display_options['fields']['picture']['id'] = 'picture';
   $handler->display->display_options['fields']['picture']['table'] = 'users';
@@ -188,6 +195,8 @@ function dcc_2013_attendees_views_default_views() {
   $handler->display->display_options['fields']['field_profile_last']['label'] = '';
   $handler->display->display_options['fields']['field_profile_last']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['field_profile_last']['alter']['text'] = '[field_profile_first] [field_profile_last]';
+  $handler->display->display_options['fields']['field_profile_last']['alter']['make_link'] = TRUE;
+  $handler->display->display_options['fields']['field_profile_last']['alter']['path'] = 'users/[name]';
   $handler->display->display_options['fields']['field_profile_last']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_last']['element_wrapper_type'] = 'div';
   $handler->display->display_options['defaults']['sorts'] = FALSE;
