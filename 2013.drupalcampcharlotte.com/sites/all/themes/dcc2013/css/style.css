@@ -330,7 +330,7 @@ div.messages {
   position: absolute; }
 
 .view-dcc-2013-attendees .views-field-name {
-  top: 80px; }
+  top: 73px; }
 
 .view-dcc-2013-attendees .views-field-field-profile-twitter-link {
   top: 108px; }
@@ -343,11 +343,13 @@ div.messages {
 .view-dcc-2013-attendees .views-field-field-profile-app-net-link,
 .view-dcc-2013-attendees .views-field-field-profile-last {
   text-align: center;
-  width: 239px;
+  width: 155px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  z-index: 11; }
+  z-index: 11;
+  left: 42px;
+  color: #9e5014; }
 
 .view-dcc-2013-attendees .views-field-picture .user-picture a {
   position: relative;
@@ -367,3 +369,28 @@ div.messages {
 
 .view-dcc-2013-attendees .views-field-picture .user-picture a:hover:after {
   background: url(../img/user-picture-mask-hover.png) no-repeat; }
+
+.view-dcc-2013-attendees .views-field-name a,
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link a,
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link a,
+.view-dcc-2013-attendees .views-field-field-profile-last a {
+  color: #9e5014;
+  font-family: Sanchez, serif;
+  font-size: 1.2em;
+  text-decoration: none; }
+
+.view-dcc-2013-attendees .views-field-name {
+  border-bottom: solid 1px #9e5014;
+  padding-bottom: 8px; }
+
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link a {
+  background: url(../img/icon-twitter.png) no-repeat 0 4px;
+  padding-left: 19px; }
+
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link a {
+  background: url(../img/icon-app-net.png) no-repeat 0 4px;
+  padding-left: 19px; }
+
+.view-dcc-2013-attendees .views-field-field-profile-last {
+  text-align: center;
+  width: 100%; }
