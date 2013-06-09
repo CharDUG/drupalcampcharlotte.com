@@ -4,6 +4,7 @@
 $tan: rgba(242, 223, 196, 1);
 $light-tan: rgba(246,246,246,1);
 $orange: rgba(229, 143, 30, 1);
+$dark-orange: rgba(158, 80, 20, 1);
 $blue: rgba(54, 101, 125, 1);
 $light-blue: lighten($blue, 50%);
 $dark-gray: rgba(40, 56, 64, 1);
@@ -414,4 +415,85 @@ div.messages {
   .second-main-nav {
     display: none;
   }
+}
+
+/* ATTENDEES VIEW */
+
+.view-dcc-2013-attendees .views-row {
+  float: left;
+  margin: 0 20px 20px 0;
+  border-bottom: 1px solid #8a4c1d;
+  width:  239px;
+  position: relative;
+  min-height: 250px;
+}
+.view-dcc-2013-attendees .views-field-name,
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link,
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link {
+  position: absolute;
+}
+.view-dcc-2013-attendees .views-field-name {
+  top: 73px;
+}
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link {
+  top: 108px;  
+}
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link {
+  top: 130px;
+}
+.view-dcc-2013-attendees .views-field-name,
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link,
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link {
+  z-index: 2;
+}
+.view-dcc-2013-attendees .views-field-name,
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link,
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link,
+.view-dcc-2013-attendees .views-field-field-profile-last {
+  text-align: center;
+  width: 155px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  left: 42px;
+  color: $dark-orange;
+}
+.view-dcc-2013-attendees .views-field-picture .user-picture a {  
+  position: relative;
+  float: left;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+.view-dcc-2013-attendees .views-field-nothing { 
+  position: absolute;
+  z-index: 1;
+  width: 239px;
+  height: 209px;
+  background: url(../img/user-picture-mask-hover.png) no-repeat;
+  display: none;
+}
+.view-dcc-2013-attendees .views-field-name a,
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link a,
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link a,
+.view-dcc-2013-attendees .views-field-field-profile-last a {
+  color: $dark-orange;
+  font-family: Sanchez, serif;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.view-dcc-2013-attendees .views-field-name {
+  border-bottom: solid 1px $dark-orange;
+  padding-bottom: 8px;
+}
+.view-dcc-2013-attendees .views-field-field-profile-twitter-link a {
+  background: url(../img/icon-twitter.png) no-repeat 0 7px;
+  padding-left: 19px;
+}
+.view-dcc-2013-attendees .views-field-field-profile-app-net-link a {
+  background: url(../img/icon-app-net.png) no-repeat 0 7px;
+  padding-left: 19px;
+}
+.view-dcc-2013-attendees .views-field-field-profile-last {
+  text-align: center;
+  width: 100%;
 }
