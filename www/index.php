@@ -293,7 +293,7 @@
   <body>
     <div>
       <div class="logo bounceInLeft animated"><img src="images/logo.png" alt="Home"></div>
-      <div class="animated fadeInUp"><img src="images/coming-soon-summer.png" alt="DrupalCamp Charlotte 2014"></div>
+      <div class="animated fadeInUp"><img src="images/coming-soon.png" alt="DrupalCamp Charlotte 2014"></div>
 
 
       <!-- Begin MailChimp Signup Form -->
