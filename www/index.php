@@ -5,8 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
-    
-    
+
+
     <style>
       body {
         background: none;
@@ -209,7 +209,7 @@
         -o-animation-name: bounceInLeft;
         animation-name: bounceInLeft;
       }
-      
+
       /* Form styles
       ---------------------------*/
       .req{color:red;}
@@ -235,18 +235,18 @@
 		background: linear-gradient(#f1f1f1, #e2e2e2);
 		padding: 5px 10px;
 		color: #444;
-		
+
 		border: 1px solid #d4d4d4;
 		border-bottom-left-radius: 5px;
 		border-top-left-radius: 5px;
-		
+
 		line-height: 1.5em;
 		width: 20%;
-		
+
 		/* takes the width properly now and also the
 		spacing between the label and input field got removed. */
 		float: left;
-		
+
 		text-align: center;
 		cursor: pointer;
 	  }
@@ -277,29 +277,29 @@
 		border-top-right-radius: 5px;
 	  }
     </style>
-    
-    <script type="text/javascript"> 
-	  var _gaq = _gaq || []; 
-	  _gaq.push(['_setAccount', 'UA-29320735-1']); 
-	  _gaq.push(['_trackPageview']); 
-	 
-	  (function() { 
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
-	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga); 
-	  })(); 
+
+    <script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-29320735-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	  })();
 	</script>
   </head>
   <body>
     <div>
       <div class="logo bounceInLeft animated"><img src="images/logo.png" alt="Home"></div>
-      <div class="animated fadeInUp"><img src="images/coming-soon-summer.png" alt="Coming Soon DrupalCamp Charlotte 2013"></div>
-      
-      
+      <div class="animated fadeInUp"><img src="images/coming-soon-summer.png" alt="DrupalCamp Charlotte 2014"></div>
+
+
       <!-- Begin MailChimp Signup Form -->
-     
+
 	<div class="mailchimp animated fadeInUp">
-	<h2>Subscribe to be notified with DrupalCamp Charlotte 2013 news</h2>
+	<h2>Subscribe to be notified with DrupalCamp Charlotte 2014 news</h2>
 	<form action="http://drupalcampcharlotte.us6.list-manage1.com/subscribe/post?u=1826216c8a982e629e5128287&amp;id=e574b4e40f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 		<div>
 			<label for="mce-EMAIL">Email<span class="req">*</span></label>
@@ -308,7 +308,7 @@
 		</div>
 	</form>
 	</div>
-	
+
 	<!--End mc_embed_signup-->
     </div>
   </body>
